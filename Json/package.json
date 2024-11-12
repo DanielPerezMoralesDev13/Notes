@@ -1,0 +1,23 @@
+{
+  "name": "json_tutorial",
+  "version": "1.0.0",
+  "description": "JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json"
+  },
+  "homepage": "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
