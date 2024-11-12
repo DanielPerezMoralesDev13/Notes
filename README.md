@@ -25,4 +25,12 @@
 
 <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Javascript>
 
-<<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fastfetch%20Personalization>
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fastfetch%20Personalization>
+
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lazygit%20Personalization>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Neofetch%20Personalization>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Tmux%20Personalization>
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Linux%20Debian>
