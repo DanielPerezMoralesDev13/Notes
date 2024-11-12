@@ -20,3 +20,9 @@
 ## Programacion oirentada a objetos  <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion%20Orientado%20Objetos%20POO>
 
 ## <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack%20Music%20Tutorials>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Javascript>
+
+<<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fastfetch%20Personalization>
