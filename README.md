@@ -5,13 +5,13 @@
 # Notes
 
 - [Notes](#notes)
-  - [Guia de Docker https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker Guide](#guia-de-docker-httpsgithubcomdanielperezmoralesdev13notestreemasterdocker-guide)
+  - [Guia de Docker https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker](#guia-de-docker-httpsgithubcomdanielperezmoralesdev13notestreemasterdocker)
   - [Guia Git y Github https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Git y Github](#guia-git-y-github-httpsgithubcomdanielperezmoralesdev13notestreemastergit-y-github)
   - [Proteccion En La Red https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Proteccion En La Red](#proteccion-en-la-red-httpsgithubcomdanielperezmoralesdev13notestreemasterproteccion-en-la-red)
   - [Programacion oirentada a objetos  https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion Orientado Objetos POO](#programacion-oirentada-a-objetos--httpsgithubcomdanielperezmoralesdev13notestreemasterprogramacion-orientado-objetos-poo)
   - [https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack Music Tutorials](#httpsgithubcomdanielperezmoralesdev13notestreemasterpack-music-tutorials)
 
-## Guia de Docker <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker%20Guide>
+## Guia de Docker <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker>
 
 ## Guia Git y Github <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Git%20y%20Github>
 
@@ -36,8 +36,8 @@
 
 <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fonts>
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lua%20Guide>
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lua>
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/C%20Guide>
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/C>
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Markdown%20Guide>
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Markdown>
