@@ -27,10 +27,17 @@
 
 <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fastfetch%20Personalization>
 
-
 <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lazygit%20Personalization>
 
 <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Neofetch%20Personalization>
 
 <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Tmux%20Personalization>
 <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Linux%20Debian>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fonts>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lua%20Guide>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/C%20Guide>
+
+<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Markdown%20Guide>
