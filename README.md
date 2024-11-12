@@ -1,3 +1,7 @@
+<!-- Author: Daniel Benjamin Perez Morales -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- Email: danielperezdev@proton.me -->
+
 # Notes
 
 - [Notes](#notes)
@@ -5,6 +9,7 @@
   - [Guia Git y Github https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Git y Github](#guia-git-y-github-httpsgithubcomdanielperezmoralesdev13notestreemastergit-y-github)
   - [Proteccion En La Red https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Proteccion En La Red](#proteccion-en-la-red-httpsgithubcomdanielperezmoralesdev13notestreemasterproteccion-en-la-red)
   - [Programacion oirentada a objetos  https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion Orientado Objetos POO](#programacion-oirentada-a-objetos--httpsgithubcomdanielperezmoralesdev13notestreemasterprogramacion-orientado-objetos-poo)
+  - [https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack Music Tutorials](#httpsgithubcomdanielperezmoralesdev13notestreemasterpack-music-tutorials)
 
 ## Guia de Docker <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker%20Guide>
 
@@ -13,3 +18,5 @@
 ## Proteccion En La Red <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Proteccion%20En%20La%20Red>
 
 ## Programacion oirentada a objetos  <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion%20Orientado%20Objetos%20POO>
+
+## <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack%20Music%20Tutorials>
