@@ -1,18 +1,42 @@
 <!-- Author: Daniel Benjamin Perez Morales -->
-<!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
+<!-- GitHub: https://github.com/DanielPerezMoralesDev13 - "https://github.com/DanielPerezMoralesDev13 -"->
 <!-- Email: danielperezdev@proton.me -->
 
-# Indices
+# ***Indices***
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Introduccion>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Intermedio>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Distribuir%20Paquetes%20PyPi>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Arrows>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Tips>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Requirements%20Python>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Sintaxis%20Sugar>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Pylintrc>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Distribuir%20Paquetes%20PyPi>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Librerias%20Python>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Modulos%20Python>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/MyPyIni>
+- [***Indices***](#indices)
+- [***Python Introducción***](#python-introducción)
+- [***Python Intermedio***](#python-intermedio)
+- [***Distribuir Paquetes PyPi***](#distribuir-paquetes-pypi)
+- [***Python Arrows***](#python-arrows)
+- [***Python Tips***](#python-tips)
+- [***Requirements Python***](#requirements-python)
+- [***Sintaxis Sugar***](#sintaxis-sugar)
+
+---
+
+# ***[Python Introducción](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Introduccion "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Introduccion")***
+
+---
+
+# ***[Python Intermedio](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Intermedio "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Intermedio")***
+
+---
+
+# ***[Distribuir Paquetes PyPi](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Distribuir%20Paquetes%20PyPi "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Distribuir%20Paquetes%20PyPi")***
+
+---
+
+# ***[Python Arrows](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Arrows "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Arrows")***
+
+---
+
+# ***[Python Tips](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Tips "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Python%20Tips")***
+
+---
+
+# ***[Requirements Python](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Requirements%20Python "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Requirements%20Python")***
+
+---
+
+# ***[Sintaxis Sugar](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Sintaxis%20Sugar "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python/Sintaxis%20Sugar")***

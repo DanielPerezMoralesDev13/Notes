@@ -2,45 +2,132 @@
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 <!-- Email: danielperezdev@proton.me -->
 
-# Notes
+# ***Notes***
 
-- [Notes](#notes)
-  - [Guia de Docker https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker](#guia-de-docker-httpsgithubcomdanielperezmoralesdev13notestreemasterdocker)
-  - [Guia Git y Github https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Git y Github](#guia-git-y-github-httpsgithubcomdanielperezmoralesdev13notestreemastergit-y-github)
-  - [Proteccion En La Red https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Proteccion En La Red](#proteccion-en-la-red-httpsgithubcomdanielperezmoralesdev13notestreemasterproteccion-en-la-red)
-  - [Programacion oirentada a objetos  https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion Orientado Objetos POO](#programacion-oirentada-a-objetos--httpsgithubcomdanielperezmoralesdev13notestreemasterprogramacion-orientado-objetos-poo)
-  - [https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack Music Tutorials](#httpsgithubcomdanielperezmoralesdev13notestreemasterpack-music-tutorials)
+- [***Notes***](#notes)
+- [***Guía de Docker***](#guía-de-docker)
+- [***Guía Git y Github***](#guía-git-y-github)
+- [***Protección en la Red***](#protección-en-la-red)
+- [***Programación Orientada a Objetos (POO)***](#programación-orientada-a-objetos-poo)
+- [***Pack Music Tutorials***](#pack-music-tutorials)
+- [***Python***](#python)
+- [***Javascript***](#javascript)
+- [***Fastfetch Personalization***](#fastfetch-personalization)
+- [***Lazygit Personalization***](#lazygit-personalization)
+- [***Neofetch Personalization***](#neofetch-personalization)
+- [***Tmux Personalization***](#tmux-personalization)
+- [***Linux Debian***](#linux-debian)
+- [***Fonts***](#fonts)
+- [***Lua***](#lua)
+- [***C***](#c)
+- [***Markdown***](#markdown)
+- [***JSON***](#json)
+- [***Ficheros de Exclusión y Configuración de Entorno***](#ficheros-de-exclusión-y-configuración-de-entorno)
 
-## Guia de Docker <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker>
+---
 
-## Guia Git y Github <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Git%20y%20Github>
+# ***Guía de Docker***
 
-## Proteccion En La Red <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Proteccion%20En%20La%20Red>
+- *[Link a Guía de Docker](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Docker")*
 
-## Programacion oirentada a objetos  <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion%20Orientado%20Objetos%20POO>
+---
 
-## <https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack%20Music%20Tutorials>
+# ***Guía Git y Github***
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python>
+- *[Link a Guía Git y Github](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Git%20y%20Github "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Git%20y%20Github")*
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Javascript>
+---
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fastfetch%20Personalization>
+# ***Protección en la Red***
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lazygit%20Personalization>
+- *[Link a Protección en la Red](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Proteccion%20En%20La%20Red "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Proteccion%20En%20La%20Red")*
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Neofetch%20Personalization>
+---
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Tmux%20Personalization>
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Linux%20Debian>
+# ***Programación Orientada a Objetos (POO)***
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fonts>
+- *[Link a Programación Orientada a Objetos](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion%20Orientado%20Objetos%20POO "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Programacion%20Orientado%20Objetos%20POO")*
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lua>
+---
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/C>
+# ***Pack Music Tutorials***
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Markdown>
+- *[Link a Pack Music Tutorials](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack%20Music%20Tutorials "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Pack%20Music%20Tutorials")*
 
-<https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json>
+---
 
+# ***Python***
+
+- *[Link a Python](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Python")*
+
+---
+
+# ***Javascript***
+
+- *[Link a Javascript](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Javascript "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Javascript")*
+
+---
+
+# ***Fastfetch Personalization***
+
+- *[Link a Fastfetch Personalization](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fastfetch%20Personalization "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fastfetch%20Personalization")*
+
+---
+
+# ***Lazygit Personalization***
+
+- *[Link a Lazygit Personalization](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lazygit%20Personalization "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lazygit%20Personalization")*
+
+---
+
+# ***Neofetch Personalization***
+
+- *[Link a Neofetch Personalization](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Neofetch%20Personalization "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Neofetch%20Personalization")*
+
+---
+
+# ***Tmux Personalization***
+
+- *[Link a Tmux Personalization](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Tmux%20Personalization "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Tmux%20Personalization")*
+
+---
+
+# ***Linux Debian***
+
+- *[Link a Linux Debian](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Linux%20Debian "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Linux%20Debian")*
+
+---
+
+# ***Fonts***
+
+- *[Link a Fonts](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fonts "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Fonts")*
+
+---
+
+# ***Lua***
+
+- *[Link a Lua](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lua "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Lua")*
+
+---
+
+# ***C***
+
+- *[Link a C](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/C "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/C")*
+
+---
+
+# ***Markdown***
+
+- *[Link a Markdown](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Markdown "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Markdown")*
+
+---
+
+# ***JSON***
+
+- *[Link a JSON](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json")*
+
+---
+
+# ***Ficheros de Exclusión y Configuración de Entorno***
+
+- *[Link a Ficheros de Exclusión y Configuración de Entorno](https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Ficheros%20de%20Exclusi%C3%B3n%20y%20Configuraci%C3%B3n%20de%20Entorno "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Ficheros%20de%20Exclusi%C3%B3n%20y%20Configuraci%C3%B3n%20de%20Entorno")*
