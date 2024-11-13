@@ -1,5 +1,5 @@
 {
-  "name": "json_tutorial",
+  "name": "json",
   "version": "1.0.0",
   "description": "JSON",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json"
+    "url": "git+https://github.com/DanielPerezMoralesDev13/Notes/"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json"
+    "url": "https://github.com/DanielPerezMoralesDev13/Notes/issues"
   },
-  "homepage": "https://github.com/DanielPerezMoralesDev13/Notes/tree/master/Json",
+  "homepage": "https://github.com/DanielPerezMoralesDev13/Notes/",
   "dependencies": {
     "live-server": "^1.2.1"
   }
