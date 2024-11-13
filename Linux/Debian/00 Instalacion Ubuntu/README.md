@@ -205,13 +205,13 @@
 
 > *Las particiones son divisiones lógicas en el disco duro de tu computadora que permiten organizar y gestionar el espacio de almacenamiento. Estas divisiones son esenciales por varias razones:*
 
-1. **Gestión del sistema de archivos:**
+1. **Gestión del sistema de ficheros:**
 
-   1. > *Las particiones ayudan a organizar y gestionar el sistema de archivos del sistema operativo. Cada partición puede tener su propio sistema de archivos y configuración.*
+   1. > *Las particiones ayudan a organizar y gestionar el sistema de ficheros del sistema operativo. Cada partición puede tener su propio sistema de ficheros y configuración.*
 
 2. **Aislamiento de datos:**
 
-   1. > *Si una partición falla, las demás pueden seguir funcionando. Esto significa que, por ejemplo, si tienes tus archivos personales en una partición separada, es menos probable que se vean afectados en caso de problemas en otras áreas del sistema.*
+   1. > *Si una partición falla, las demás pueden seguir funcionando. Esto significa que, por ejemplo, si tienes tus ficheros personales en una partición separada, es menos probable que se vean afectados en caso de problemas en otras áreas del sistema.*
 
 3. **Múltiples sistemas operativos:**
 
@@ -225,11 +225,11 @@
 
 1. **(raíz):**
 
-   1. > *Contiene los archivos del sistema y directorios principales. Es la partición principal.*
+   1. > *Contiene los ficheros del sistema y directorios principales. Es la partición principal.*
 
 2. **boot:**
 
-   1. > *Almacena los archivos del kernel y otros archivos de inicio del sistema.*
+   1. > *Almacena los ficheros del kernel y otros ficheros de inicio del sistema.*
 
 3. **home:**
 
@@ -241,15 +241,15 @@
 
 5. **tmp:**
 
-   1. > *Almacena archivos temporales.*
+   1. > *Almacena ficheros temporales.*
 
 6. **var:**
 
-   1. > *Contiene datos variables, como registros del sistema y archivos de spool.*
+   1. > *Contiene datos variables, como registros del sistema y ficheros de spool.*
 
 7. **usr:**
 
-   1. > *Almacena programas y archivos de sistema que no cambian con frecuencia.*
+   1. > *Almacena programas y ficheros de sistema que no cambian con frecuencia.*
 
 8. **opt:**
    1. > *Utilizado para instalar software adicional de terceros.*
@@ -258,7 +258,7 @@
 
 **Partición primaria para el sistema operativo (/):**
 
-1. *Esta partición es donde se instala el sistema operativo. Contiene los archivos del sistema, el kernel y otros componentes esenciales para el funcionamiento del sistema.*
+1. *Esta partición es donde se instala el sistema operativo. Contiene los ficheros del sistema, el kernel y otros componentes esenciales para el funcionamiento del sistema.*
 
 2. *Mantener el sistema operativo en una partición separada facilita la gestión y las actualizaciones sin afectar los datos personales.*
 
@@ -268,17 +268,17 @@
 
 2. *Mejora el rendimiento del sistema en situaciones de uso intensivo de memoria.*
 
-**Partición lógica para archivos personales (/Home):**
+**Partición lógica para ficheros personales (/Home):**
 
 1. *La partición /Home almacena los directorios personales de los usuarios, que incluyen documentos, música, imágenes y configuraciones personales.*
 
-2. *Al tener /Home en una partición separada, los archivos personales están aislados del sistema operativo. Esto significa que si decides reinstalar o actualizar el sistema operativo, los archivos personales permanecerán intactos, facilitando la migración y la protección de tus datos.*
+2. *Al tener /Home en una partición separada, los ficheros personales están aislados del sistema operativo. Esto significa que si decides reinstalar o actualizar el sistema operativo, los ficheros personales permanecerán intactos, facilitando la migración y la protección de tus datos.*
 
 ---
 
 # ***Designaciones de Disco en Linux***
 
-> *En sistemas operativos basados en Linux, los discos duros y otros dispositivos de almacenamiento son representados en el sistema de archivos como archivos en el directorio `/dev`. La designación de disco base suele seguir el patrón `/dev/sda`, donde "sda" podría ser reemplazado por otras letras según la cantidad de discos presentes en el sistema (por ejemplo, `/dev/sdb`, `/dev/sdc`, etc.).*
+> *En sistemas operativos basados en Linux, los discos duros y otros dispositivos de almacenamiento son representados en el sistema de ficheros como ficheros en el directorio `/dev`. La designación de disco base suele seguir el patrón `/dev/sda`, donde "sda" podría ser reemplazado por otras letras según la cantidad de discos presentes en el sistema (por ejemplo, `/dev/sdb`, `/dev/sdc`, etc.).*
 
 1. **Particiones Primarias y Lógicas**
 
@@ -294,7 +294,7 @@
 
    *La principal diferencia entre particiones primarias y lógicas radica en cómo se utilizan y cómo interactúan con la tabla de particiones:*
 
-   - **Particiones Primarias:** *Están limitadas a un máximo de cuatro por disco. Son independientes y pueden contener sistemas de archivos o actuar como contenedores para sistemas de archivos adicionales (por ejemplo, contenedor de una partición extendida).*
+   - **Particiones Primarias:** *Están limitadas a un máximo de cuatro por disco. Son independientes y pueden contener sistemas de ficheros o actuar como contenedores para sistemas de ficheros adicionales (por ejemplo, contenedor de una partición extendida).*
 
    - **Particiones Lógicas:** *Se utilizan cuando se necesitan más de cuatro particiones en un disco. Se crean dentro de una partición extendida, que es una partición primaria especial. La partición extendida actúa como un contenedor para varias particiones lógicas. Esto permite superar la limitación de cuatro particiones primarias.*
 
@@ -321,7 +321,7 @@
 
 - **Mejora de Resolución de Pantalla:** *Ajusta automáticamente la resolución de pantalla de la máquina virtual.*
 - **Integración del Ratón:** *Permite una transición más fluida entre el sistema anfitrión y el sistema invitado.*
-- **Compartición de Carpetas:** *Facilita la transferencia de archivos entre ambos sistemas.*
+- **Compartición de Carpetas:** *Facilita la transferencia de ficheros entre ambos sistemas.*
 
 **Instalación de Guest Additions:**
 
@@ -402,11 +402,11 @@
 
 **SSD + HDD:**
 
-> *Tienes que particionar el SSD para instalar ahí el sistema operativo, y tienes que particionar el HDD para montar ahí el /home y almacenar tus archivos. En cuando al SSD recomiendo si es posible mitad para Windows mitad para Linux. El HDD va a tu criterio, deja el espacio que consideres necesario.*
+> *Tienes que particionar el SSD para instalar ahí el sistema operativo, y tienes que particionar el HDD para montar ahí el /home y almacenar tus ficheros. En cuando al SSD recomiendo si es posible mitad para Windows mitad para Linux. El HDD va a tu criterio, deja el espacio que consideres necesario.*
 
-**Un solo disco en el PC (SSD o HDD) pero con disco externo para archivos:**
+**Un solo disco en el PC (SSD o HDD) pero con disco externo para ficheros:**
 
-> *Se tiene que particionar el disco que tienes en el PC, ya sea SSD o HDD, debes hacer espacio para instalar el Sistema, tus archivos los almacenas en el disco externo.*
+> *Se tiene que particionar el disco que tienes en el PC, ya sea SSD o HDD, debes hacer espacio para instalar el Sistema, tus ficheros los almacenas en el disco externo.*
 
 - *[Etcher](https://etcher.balena.io/ "https://etcher.balena.io/")*
 

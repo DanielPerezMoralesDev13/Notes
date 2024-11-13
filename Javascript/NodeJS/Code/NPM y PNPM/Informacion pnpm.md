@@ -22,7 +22,7 @@ npm install -g pnpm
 pnpm init
 ```
 
-- **Este comando te guiará para crear un archivo `package.json` similar a npm.**
+- **Este comando te guiará para crear un fichero `package.json` similar a npm.**
 
 #### ***Instalación de Dependencias***
 

@@ -15,7 +15,7 @@ int main(void) {
 
     // Asegurarse de que y sea menor que 10 (esto fallará)
     // Esta condición es falsa, ya que y es igual a 10, por lo tanto, assert fallará
-    // Al fallar, el programa se detiene y se imprime un mensaje de error, indicando el archivo, la línea y la condición fallida
+    // Al fallar, el programa se detiene y se imprime un mensaje de error, indicando el fichero, la línea y la condición fallida
     assert(y < 10);
 
     // Este mensaje no se imprimirá porque el programa se detiene en el assert anterior

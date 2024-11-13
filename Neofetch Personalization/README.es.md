@@ -22,7 +22,7 @@
 
 - **Barra de Progreso:** *Personaliza los caracteres y colores de las barras de progreso.*
 - **Backend de Imágenes:** *Configura el backend para mostrar imágenes, con opciones como `kitty`, `ascii`, `caca`, entre otros.*
-- **Fuente de Imágenes:** *Especifica la fuente de las imágenes o archivos ASCII a mostrar.*
+- **Fuente de Imágenes:** *Especifica la fuente de las imágenes o ficheros ASCII a mostrar.*
 - **Opciones de Ascii:** *Personaliza el arte ASCII del sistema operativo.*
 - **Opciones de Imagen:** *Ajusta la visualización de imágenes, incluyendo tamaño, recorte y color de fondo.*
 

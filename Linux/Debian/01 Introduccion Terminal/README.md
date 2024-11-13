@@ -116,7 +116,7 @@
    ls ../carpeta/
    ```
 
-   - *Este comando se utiliza para listar los archivos y directorios en el directorio actual. **Tambien se le puede pasar rutas relativas como absoluta***
+   - *Este comando se utiliza para listar los ficheros y directorios en el directorio actual. **Tambien se le puede pasar rutas relativas como absoluta***
    - **Traduccion:** *"List", lista*
 
 8. *`mkdir`*
@@ -279,7 +279,7 @@
       rm ./mi\ primer\ programa.py
       ```
 
-      - *El comando rm en Linux se utiliza para eliminar archivos y directorios. **Tambien se le puede pasar rutas relativas como absoluta***
+      - *El comando rm en Linux se utiliza para eliminar ficheros y directorios. **Tambien se le puede pasar rutas relativas como absoluta***
 
         - **Se pueden pasar mas de un parametro**
 
@@ -323,7 +323,7 @@
 
     - *Este comando mover el fichero a otra ubicacion si ya existe, será sobrescrito.*
 
-      - *Además, mv también se puede utilizar para renombrar archivos.*
+      - *Además, mv también se puede utilizar para renombrar ficheros.*
 
     - **Traduccion:** *mv proviene de las siglas en inglés "move", que significa "mover".*
 
@@ -383,9 +383,9 @@
       cat ./fichero.txt ./fichero2.txt > fichero3.txt
       ```
 
-     - *El comando cat en Linux se utiliza para concatenar y mostrar archivos.*
+     - *El comando cat en Linux se utiliza para concatenar y mostrar ficheros.*
 
-       - *Este comando concatenará el contenido de **fichero.txt** y **fichero2.txt**, y el resultado se guardará en **archivo3.txt**. **Si fichero3.txt ya existe, será sobrescrito si no sera se creara el fichero.***
+       - *Este comando concatenará el contenido de **fichero.txt** y **fichero2.txt**, y el resultado se guardará en **fichero3.txt**. **Si fichero3.txt ya existe, será sobrescrito si no sera se creara el fichero.***
 
        - *El símbolo > en Linux se utiliza para redirigir la salida de un comando a un fichero.*
 
@@ -417,7 +417,7 @@
       grep lista fichero.txt
       ```
 
-    - *El comando grep en Linux se utiliza para buscar texto en archivos.*
+    - *El comando grep en Linux se utiliza para buscar texto en ficheros.*
 
       - *El comando grep lista fichero.txt buscará la palabra "lista" en el fichero fichero.txt y mostrará las líneas que contienen esa palabra.*
 

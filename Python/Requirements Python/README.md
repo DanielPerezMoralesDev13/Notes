@@ -54,7 +54,7 @@ toml==0.10.2
 
 1. **Instala las Dependencias:** *Asegúrate de tener todas las bibliotecas necesarias instaladas en tu entorno virtual.*
 
-2. **Genera el Archivo:** *Usa el comando `pip freeze` para generar un fichero `requirements.txt` con todas las dependencias instaladas y sus versiones. Ejecuta:*
+2. **Genera el Fichero:** *Usa el comando `pip freeze` para generar un fichero `requirements.txt` con todas las dependencias instaladas y sus versiones. Ejecuta:*
 
    ```bash
    pip freeze > requirements.txt

@@ -9,7 +9,7 @@ La opción `-lm` en el comando de compilación con `gcc` se utiliza para indicar
 
 ### Qué hace la opción `-lm`
 
-Cuando se compila un programa en C que utiliza funciones matemáticas avanzadas, como las que se encuentran en el archivo `<math.h>`, el compilador necesita enlazar la biblioteca matemática estándar (`libm`). Esta biblioteca contiene implementaciones de funciones matemáticas como `sqrt`, `exp`, `log`, `log10`, `fmax`, `fmin`, entre otras.
+Cuando se compila un programa en C que utiliza funciones matemáticas avanzadas, como las que se encuentran en el fichero `<math.h>`, el compilador necesita enlazar la biblioteca matemática estándar (`libm`). Esta biblioteca contiene implementaciones de funciones matemáticas como `sqrt`, `exp`, `log`, `log10`, `fmax`, `fmin`, entre otras.
 
 ### Significado de `-lm`
 
@@ -22,7 +22,7 @@ En conjunto, `-lm` le dice al compilador que debe buscar y enlazar la biblioteca
 
 Cuando se compila y enlaza un programa en C que utiliza funciones de `math.h`, se siguen generalmente dos pasos:
 
-1. **Compilación**: El código fuente de C se convierte en código objeto (archivo `.o`).
+1. **Compilación**: El código fuente de C se convierte en código objeto (fichero `.o`).
 2. **Enlace**: El código objeto se enlaza con las bibliotecas necesarias para crear el ejecutable final.
 
 Durante el segundo paso, si el programa utiliza funciones matemáticas, se debe incluir la biblioteca `libm`. Si no se especifica `-lm`, el enlazador no encontrará las definiciones de las funciones matemáticas, lo que resulta en errores de referencia indefinida.

@@ -17,10 +17,10 @@ include ./pycrypy.spec
 # Incluir los requisitos del proyecto para la instalación de dependencias.
 include ./requirements.txt
 
-# Incluir el archivo de contribución para guiar a los colaboradores.
+# Incluir el fichero de contribución para guiar a los colaboradores.
 include ./CONTRIBUCION.md
 
-# Incluir todos los archivos de datos en los directorios 'src' y 'dist'.
+# Incluir todos los ficheros de datos en los directorios 'src' y 'dist'.
 recursive-include ./src *
 recursive-include ./dist *
 
@@ -30,13 +30,13 @@ global-exclude */.mypy_cache *
 # Excluir todos los directorios '__pycache__' en cualquier nivel del árbol de directorios.
 global-exclude */__pycache__ *
 
-# Excluir los archivos del directorio '.git' para evitar incluir información de control de versiones.
+# Excluir los ficheros del directorio '.git' para evitar incluir información de control de versiones.
 recursive-exclude ./.git *
 
-# Excluir todos los archivos en el directorio 'Themes' para mantener el foco en los archivos relevantes.
+# Excluir todos los ficheros en el directorio 'Themes' para mantener el foco en los ficheros relevantes.
 recursive-exclude ./Themes *
 
-# Excluir los siguientes archivos de configuración y control.
+# Excluir los siguientes ficheros de configuración y control.
 exclude ./.gitignore
 exclude ./.gitattributes
 exclude ./.editorconfig

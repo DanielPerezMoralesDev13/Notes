@@ -12,7 +12,7 @@
 > [!CAUTION]
 > *No, Docker no es un lenguaje de programación. Docker es una plataforma de software que facilita la creación, el despliegue y la ejecución de aplicaciones dentro de contenedores. Los contenedores permiten empaquetar una aplicación con todas sus dependencias en un solo paquete, asegurando que se ejecute de manera consistente en diferentes entornos.*
 
-- *Docker utiliza archivos llamados Dockerfiles para definir cómo se debe construir un contenedor. Aunque estos archivos están escritos en un formato de texto específico, no se consideran un lenguaje de programación en sí mismos.*
+- *Docker utiliza ficheros llamados Dockerfiles para definir cómo se debe construir un contenedor. Aunque estos ficheros están escritos en un formato de texto específico, no se consideran un lenguaje de programación en sí mismos.*
 
 ### ***Problemas que Resuelve Docker***
 

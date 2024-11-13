@@ -124,7 +124,7 @@
 
 > *El ransomware es un tipo de software malicioso (malware) diseñado para cifrar ficheros en el sistema de un usuario y luego exigir un pago (un "rescate") a cambio de proporcionar la clave de descifrado o desbloquear los ficheros. En esencia, es un tipo de ataque cibernético que tiene como objetivo extorsionar a las víctimas.*
 
-1. **Cifrado de Archivos:**
+1. **Cifrado de Ficheros:**
 
    > *El ransomware cifra ficheros en la computadora de la víctima, utilizando algoritmos de cifrado fuertes. Los ficheros se vuelven inaccesibles para el usuario sin la clave de descifrado correspondiente.*
 

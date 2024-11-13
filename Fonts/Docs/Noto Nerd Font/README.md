@@ -494,171 +494,171 @@ Claro, aquí tienes un listado detallado de las fuentes NotoSerif y NotoSans Ner
 **NotoSerif Nerd Fonts:**
 
 - **Condensed Medium:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-CondensedMedium.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-CondensedMedium.ttf`
   - **Estilos:** *Condensed Medium, Regular*
   
 - **Bold Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-BoldItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-BoldItalic.ttf`
   - **Estilos:** *Bold Italic*
   
 - **SemiCondensed Medium:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-SemiCondensedMedium.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-SemiCondensedMedium.ttf`
   - **Estilos:** *SemiCondensed Medium, Regular*
   
 - **ExtraCondensed Light Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-ExtraCondensedLightItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-ExtraCondensedLightItalic.ttf`
   - **Estilos:** *ExtraCondensed Light Italic, Italic*
   
 - **ExtraBold Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-ExtraBoldItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-ExtraBoldItalic.ttf`
   - **Estilos:** *ExtraBold Italic, Italic*
   
 - **ExtraCondensed Medium:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-ExtraCondensedMedium.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-ExtraCondensedMedium.ttf`
   - **Estilos:** *ExtraCondensed Medium, Regular*
   
 - **SemiCondensed SemiBold Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-SemiCondensedSemiBoldItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-SemiCondensedSemiBoldItalic.ttf`
   - **Estilos:** *SemiCondensed SemiBold Italic, Italic*
   
 - **SemiCondensed ExtraLight Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-SemiCondensedExtraLightItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-SemiCondensedExtraLightItalic.ttf`
   - **Estilos:** *SemiCondensed ExtraLight Italic, Italic*
   
 - **Thin:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-Thin.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-Thin.ttf`
   - **Estilos:** *Thin, Regular*
   
 - **Black:**
-  - **Archivo:** `/usr/share/fonts/NotoSerifNerdFont-Black.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSerifNerdFont-Black.ttf`
   - **Estilos:** *Black, Regular*
   
 **NotoSans Nerd Fonts:**
 
 - **SemiCondensed Thin Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-SemiCondensedThinItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-SemiCondensedThinItalic.ttf`
   - **Estilos:** *SemiCondensed Thin Italic, Italic*
   
 - **ExtraCondensed ExtraBold:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-ExtraCondensedExtraBold.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-ExtraCondensedExtraBold.ttf`
   - **Estilos:** *ExtraCondensed ExtraBold, Regular*
   
 - **Condensed Medium:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-CondensedMedium.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-CondensedMedium.ttf`
   - **Estilos:** *Condensed Medium, Regular*
   
 - **SemiCondensed Medium Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-SemiCondensedMediumItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-SemiCondensedMediumItalic.ttf`
   - **Estilos:** *SemiCondensed Medium Italic, Italic*
   
 - **ExtraCondensed Light:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-ExtraCondensedLight.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-ExtraCondensedLight.ttf`
   - **Estilos:** *ExtraCondensed Light, Regular*
   
 - **Bold:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-Bold.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-Bold.ttf`
   - **Estilos:** *Bold*
   
 - **Medium:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-Medium.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-Medium.ttf`
   - **Estilos:** *Medium, Regular*
   
 - **Condensed Light Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFont-CondensedLightItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFont-CondensedLightItalic.ttf`
   - **Estilos:** *Condensed Light Italic, Italic*
   
 **NotoSansM Nerd Fonts:**
 
 - **Black:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFont-Black.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFont-Black.ttf`
   - **Estilos:** *Black, Regular*
   
 - **SemiCondensed Bold:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedBold.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedBold.ttf`
   - **Estilos:** *SemiCondensed Bold, Bold*
   
 - **SemiCondensed Thin:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedThin.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedThin.ttf`
   - **Estilos:** *SemiCondensed Thin, Regular*
   
 - **Light:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFont-Light.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFont-Light.ttf`
   - **Estilos:** *Light, Regular*
   
 - **Condensed Medium:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFont-CondensedMedium.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFont-CondensedMedium.ttf`
   - **Estilos:** *Condensed Medium, Regular*
   
 - **SemiCondensed Regular:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFont-SemiCondensedRegular.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFont-SemiCondensedRegular.ttf`
   - **Estilos:** *SemiCondensed Regular, Regular*
 
 **NotoSansM Nerd Fonts Mono:**
 
 - **SemiCondensed Bold:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedBold.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedBold.ttf`
   - **Estilos:** *SemiCondensed Bold, Bold*
   
 - **SemiCondensed Medium:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedMedium.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedMedium.ttf`
   - **Estilos:** *SemiCondensed Medium, Regular*
   
 - **Black:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontMono-Black.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontMono-Black.ttf`
   - **Estilos:** *Black, Regular*
   
 **NotoSansM Nerd Fonts Propo:**
 
 - **SemiCondensed Bold:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedBold.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedBold.ttf`
   - **Estilos:** *SemiCondensed Bold, Bold*
   
 - **SemiCondensed Light:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedLight.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedLight.ttf`
   - **Estilos:** *SemiCondensed Light, Regular*
   
 - **ExtraCondensed Black Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontPropo-ExtraCondensedBlackItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontPropo-ExtraCondensedBlackItalic.ttf`
   - **Estilos:** *ExtraCondensed Black Italic, Italic*
   
 - **SemiCondensed Black:**
-  - **Archivo:** `/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedBlack.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedBlack.ttf`
   - **Estilos:** *SemiCondensed Black, Regular*
   
 **NotoSans Nerd Fonts Propo:**
 
 - **SemiCondensed ExtraLight Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFontPropo-SemiCondensedExtraLightItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFontPropo-SemiCondensedExtraLightItalic.ttf`
   - **Estilos:** *SemiCondensed ExtraLight Italic, Italic*
   
 - **Condensed ExtraBold Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFontPropo-CondensedExtraBoldItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFontPropo-CondensedExtraBoldItalic.ttf`
   - **Estilos:** *Condensed ExtraBold Italic, Italic*
   
 - **ExtraCondensed Regular:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedRegular.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedRegular.ttf`
   - **Estilos:** *ExtraCondensed Regular, Regular*
   
 - **Medium Italic:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFontPropo-MediumItalic.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFontPropo-MediumItalic.ttf`
   - **Estilos:** *Medium Italic, Italic*
   
 - **Condensed Light:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFontPropo-CondensedLight.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFontPropo-CondensedLight.ttf`
   - **Estilos:** *Condensed Light, Regular*
   
 - **ExtraBold:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFontPropo-ExtraBold.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFontPropo-ExtraBold.ttf`
   - **Estilos:** *ExtraBold, Regular*
   
 - **Regular:**
-  - **Archivo:** `/usr/share/fonts/NotoSansNerdFontPropo-Regular.ttf`
+  - **Fichero:** `/usr/share/fonts/NotoSansNerdFontPropo-Regular.ttf`
   - **Estilos:** *Regular*
   
 **Fuentes adicionales:**
 
 - **Noto Mono for Powerline:**
-  - **Archivo:** `/home/d4nitrix13/.local/share/fonts/Noto Mono for Powerline.ttf`
+  - **Fichero:** `/home/d4nitrix13/.local/share/fonts/Noto Mono for Powerline.ttf`
   - **Estilos:** *Regular*
 
 **NotoSans Nerd Font:**
@@ -743,121 +743,121 @@ Claro, aquí tienes un listado detallado de las fuentes NotoSerif y NotoSans Ner
 
 1. **NotoSansM Nerd Font**
    - **Condensed ExtraBold:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedExtraBold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedExtraBold.ttf`*
    - **Condensed Black:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedBlack.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedBlack.ttf`*
    - **ExtraCondensed Light:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-ExtraCondensedLight.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-ExtraCondensedLight.ttf`*
    - **ExtraCondensed Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-ExtraCondensedRegular.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-ExtraCondensedRegular.ttf`*
    - **SemiCondensed Black:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-SemiCondensedBlack.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-SemiCondensedBlack.ttf`*
    - **SemiBold:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-SemiBold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-SemiBold.ttf`*
    - **Condensed Light:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedLight.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedLight.ttf`*
    - **SemiCondensed Light:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedLight.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontMono-SemiCondensedLight.ttf`*
    - **Condensed Medium:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontMono-CondensedMedium.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontMono-CondensedMedium.ttf`*
    - **SemiCondensed Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedRegular.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontPropo-SemiCondensedRegular.ttf`*
    - **Thin:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontPropo-Thin.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontPropo-Thin.ttf`*
    - **Medium:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontMono-Medium.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontMono-Medium.ttf`*
    - **Condensed Light:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontPropo-CondensedLight.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontPropo-CondensedLight.ttf`*
    - **ExtraCondensed ExtraBold:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontPropo-ExtraCondensedExtraBold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontPropo-ExtraCondensedExtraBold.ttf`*
    - **ExtraBold:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontPropo-ExtraBold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontPropo-ExtraBold.ttf`*
    - **ExtraCondensed ExtraLight:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFontPropo-ExtraCondensedExtraLight.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFontPropo-ExtraCondensedExtraLight.ttf`*
    - **Condensed Black:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedBlack.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansMNerdFont-CondensedBlack.ttf`*
 
 2. **NotoSans Nerd Font**
    - **ExtraCondensed Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFont-ExtraCondensedRegular.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFont-ExtraCondensedRegular.ttf`*
    - **SemiCondensed ExtraBold:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFont-SemiCondensedExtraBold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFont-SemiCondensedExtraBold.ttf`*
    - **SemiCondensed Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFont-SemiCondensedRegular.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFont-SemiCondensedRegular.ttf`*
    - **Black Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFont-BlackItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFont-BlackItalic.ttf`*
    - **SemiCondensed Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFont-SemiCondensedItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFont-SemiCondensedItalic.ttf`*
    - **ExtraCondensed SemiBold:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFont-ExtraCondensedSemiBold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFont-ExtraCondensedSemiBold.ttf`*
    - **Condensed Thin Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFont-CondensedThinItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFont-CondensedThinItalic.ttf`*
    - **SemiCondensed ExtraBold Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFont-SemiCondensedExtraBoldItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFont-SemiCondensedExtraBoldItalic.ttf`*
 
 3. **NotoSans Nerd Font Propo**
    - **ExtraCondensed Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedItalic.ttf`*
    - **ExtraCondensed Black:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedBlack.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedBlack.ttf`*
    - **SemiCondensed Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFontPropo-SemiCondensedItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFontPropo-SemiCondensedItalic.ttf`*
    - **ExtraCondensed ExtraLight Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedExtraLightItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedExtraLightItalic.ttf`*
    - **Condensed ExtraLight Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFontPropo-CondensedExtraLightItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFontPropo-CondensedExtraLightItalic.ttf`*
    - **ExtraCondensed Thin:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedThin.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSansNerdFontPropo-ExtraCondensedThin.ttf`*
 
 4. **NotoSerif Nerd Font**
    - **Bold:** *Bold*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFont-Bold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFont-Bold.ttf`*
    - **ExtraLight Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFont-ExtraLightItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFont-ExtraLightItalic.ttf`*
    - **Condensed Black Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFont-CondensedBlackItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFont-CondensedBlackItalic.ttf`*
    - **SemiCondensed Black:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFont-SemiCondensedBlack.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFont-SemiCondensedBlack.ttf`*
    - **SemiBold:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFont-SemiBold.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFont-SemiBold.ttf`*
    - **ExtraCondensed Bold Italic:** *Bold Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFont-ExtraCondensedBoldItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFont-ExtraCondensedBoldItalic.ttf`*
    - **SemiCondensed Light Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedLightItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedLightItalic.ttf`*
    - **Condensed Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFontPropo-CondensedItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFontPropo-CondensedItalic.ttf`*
    - **SemiCondensed Thin Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedThinItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedThinItalic.ttf`*
    - **SemiCondensed Medium:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedMedium.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedMedium.ttf`*
    - **SemiCondensed Black Italic:** *Italic*
-     - **Archivo:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedBlackItalic.ttf`*
+     - **Fichero:** *`/usr/share/fonts/NotoSerifNerdFontPropo-SemiCondensedBlackItalic.ttf`*
 
 5. **Noto Mono**
    - **Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf`*
+     - **Fichero:** *`/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf`*
 
 6. **Noto Sans Mono CJK**
    - **SC Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
    - **TC Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
    - **HK Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
    - **KR Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
    - **JP Regular:** *Regular*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc`*
    - **SC Bold:** *Bold*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
    - **TC Bold:** *Bold*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
    - **HK Bold:** *Bold*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
    - **KR Bold:** *Bold*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
    - **JP Bold:** *Bold*
-     - **Archivo:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
+     - **Fichero:** *`/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc`*
 
 7. **NotoSansNerdFontPropo-SemiCondensedSemiBold.ttf:**
     - **Familia:** *NotoSans Nerd Font Propo, NotoSans NFP*

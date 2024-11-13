@@ -8,7 +8,7 @@ const pc = require('picocolors')
 
 const folder = process.argv[2] ?? '.'
 
-async function ls (folder) {
+async function ls(folder) {
   let files
   try {
     files = await fs.readdir(folder)
@@ -22,9 +22,9 @@ async function ls (folder) {
     let stats
 
     try {
-      stats = await fs.stat(filePath) // status - información del archivo
+      stats = await fs.stat(filePath) // status - información del fichero
     } catch {
-      console.error(`No se pudo leer el archivo ${filePath}`)
+      console.error(`No se pudo leer el fichero ${filePath}`)
       process.exit(1)
     }
 

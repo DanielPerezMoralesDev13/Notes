@@ -4,7 +4,7 @@
 
 # ***Dotfiles de Fuentes***
 
-- *Este repositorio contiene mis configuraciones de fuentes para diferentes aplicaciones y entornos. Estos archivos dotfiles me permiten mantener una consistencia en la apariencia tipográfica en todos mis sistemas y aplicaciones.*
+- *Este repositorio contiene mis configuraciones de fuentes para diferentes aplicaciones y entornos. Estos ficheros dotfiles me permiten mantener una consistencia en la apariencia tipográfica en todos mis sistemas y aplicaciones.*
 
 ## ***Uso***
 

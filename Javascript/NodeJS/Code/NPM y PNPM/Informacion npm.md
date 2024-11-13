@@ -12,7 +12,7 @@
 npm init
 ```
 
-**Este comando te guiará a través de la creación de un archivo `package.json`. A continuación, se muestran los mensajes y las preguntas que el comando `npm init` te presentará:**
+**Este comando te guiará a través de la creación de un fichero `package.json`. A continuación, se muestran los mensajes y las preguntas que el comando `npm init` te presentará:**
 
 ```bash
 This utility will walk you through creating a package.json file.
@@ -37,7 +37,7 @@ license: (ISC) MIT
 About to write to /home/d4nitrix13/Desktop/NodeJs/package.json:
 ```
 
-**El resultado será un archivo `package.json` como el siguiente:**
+**El resultado será un fichero `package.json` como el siguiente:**
 
 ```json
 {
@@ -89,7 +89,7 @@ found 0 vulnerabilities
 
 ## ***Modificación del `package.json` al instalar una dependencia***
 
-**Cuando instalas una dependencia, el archivo `package.json` se actualiza automáticamente. A continuación, se muestra un ejemplo de cómo se vería después de instalar `picocolors`:**
+**Cuando instalas una dependencia, el fichero `package.json` se actualiza automáticamente. A continuación, se muestra un ejemplo de cómo se vería después de instalar `picocolors`:**
 
 ```json
 {
@@ -120,7 +120,7 @@ found 0 vulnerabilities
 }
 ```
 
-**Además, se genera un archivo `package-lock.json` que asegura que las versiones de las dependencias sean consistentes. Aquí hay un ejemplo:**
+**Además, se genera un fichero `package-lock.json` que asegura que las versiones de las dependencias sean consistentes. Aquí hay un ejemplo:**
 
 ```json
 {
@@ -204,7 +204,7 @@ tree -C ./node_modules/
 
 ## ***Instalación de otros paquetes***
 
-**Cuando instalamos otros paquetes, como `lodash`, npm creará un directorio con el nombre del paquete dentro del directorio `node_modules` y contendrá varios archivos y subdirectorios. A continuación se muestra cómo se vería esto:**
+**Cuando instalamos otros paquetes, como `lodash`, npm creará un directorio con el nombre del paquete dentro del directorio `node_modules` y contendrá varios ficheros y subdirectorios. A continuación se muestra cómo se vería esto:**
 
 ### ***Instalación de lodash***
 
@@ -1290,7 +1290,7 @@ npm install lodash
 
 ## ***Instalación de otros paquetes:***
 
-- *Cuando instalamos paquetes adicionales, como `lodash` o `react`, npm creará un directorio con el nombre del paquete dentro del directorio `node_modules`, el cual contendrá varios archivos y subdirectorios.*
+- *Cuando instalamos paquetes adicionales, como `lodash` o `react`, npm creará un directorio con el nombre del paquete dentro del directorio `node_modules`, el cual contendrá varios ficheros y subdirectorios.*
 
 ### ***Instalación de React***
 
@@ -1304,7 +1304,7 @@ npm install react
 
 - *Al instalar `react`, también se instalan automáticamente sus dependencias, lo que resulta en un árbol de directorios aún más grande.*
 
-- *Estos directorios contienen archivos y subdirectorios necesarios para que las bibliotecas funcionen correctamente. Todas estas son dependencias de nuestras dependencias, lo que significa que, además de los archivos principales del paquete, también se incluyen los archivos y módulos que dichos paquetes necesitan para funcionar.*
+- *Estos directorios contienen ficheros y subdirectorios necesarios para que las bibliotecas funcionen correctamente. Todas estas son dependencias de nuestras dependencias, lo que significa que, además de los ficheros principales del paquete, también se incluyen los ficheros y módulos que dichos paquetes necesitan para funcionar.*
 
 - *Después de instalar paquetes como `lodash` y `react`, el directorio `node_modules` se veria de la siguiente manera.*
 
@@ -2426,7 +2426,7 @@ npm install react
 npm uninstall lodash react
 ```
 
-**Esto eliminará las dependencias y actualizará el archivo `package.json`:**
+**Esto eliminará las dependencias y actualizará el fichero `package.json`:**
 
 ```bash
 removed 4 packages, and audited 2 packages in 1s
@@ -2472,7 +2472,7 @@ found 0 vulnerabilities
 
 ### ***Configuración en `package.json`***
 
-**Después de instalar `standard`, el archivo `package.json` se verá así:**
+**Después de instalar `standard`, el fichero `package.json` se verá así:**
 
 ```json
 {
@@ -2508,7 +2508,7 @@ found 0 vulnerabilities
 
 ### ***Uso de ESLint***
 
-- *La dependencia `standard` te ayudará a detectar errores de sintaxis en los archivos. Para que se resuelvan automáticamente, necesitas una extensión llamada ESLint.*
+- *La dependencia `standard` te ayudará a detectar errores de sintaxis en los ficheros. Para que se resuelvan automáticamente, necesitas una extensión llamada ESLint.*
 
 ```bash
 Nombre: ESLint
@@ -2521,7 +2521,7 @@ Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=
 
 ### ***Categorías de dependencias***
 
-- *En el archivo `package.json`, las dependencias se dividen en dos categorías: `dependencies` y `devDependencies`. Esto se debe a que algunas dependencias solo se utilizan para mejorar la experiencia de desarrollo y no son necesarias para el software en producción.*
+- *En el fichero `package.json`, las dependencias se dividen en dos categorías: `dependencies` y `devDependencies`. Esto se debe a que algunas dependencias solo se utilizan para mejorar la experiencia de desarrollo y no son necesarias para el software en producción.*
 
 ```json
 {
@@ -2538,7 +2538,7 @@ Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=
 
 ### ***Configuración en el `package.json`***
 
-- *Para configurar ESLint en tu proyecto y extender las reglas de estilo de StandardJS, agrega lo siguiente en tu archivo `package.json`:*
+- *Para configurar ESLint en tu proyecto y extender las reglas de estilo de StandardJS, agrega lo siguiente en tu fichero `package.json`:*
 
 ```json
 {
@@ -2577,11 +2577,11 @@ Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=
 
 ### ***Explicación de la configuración en `package.json`***
 
-- *La sección `"eslintConfig"` indica a ESLint que extienda las reglas de estilo definidas en el archivo `eslintrc.json` de StandardJS, que se encuentra en el directorio `node_modules/standard/`.*
+- *La sección `"eslintConfig"` indica a ESLint que extienda las reglas de estilo definidas en el fichero `eslintrc.json` de StandardJS, que se encuentra en el directorio `node_modules/standard/`.*
 
-### ***Configuración en el archivo `settings.json` de VS Code***
+### ***Configuración en el fichero `settings.json` de VS Code***
 
-**Para integrar ESLint con VS Code y configurar el comportamiento del editor, puedes agregar las siguientes configuraciones en tu archivo `settings.json` de VS Code:**
+**Para integrar ESLint con VS Code y configurar el comportamiento del editor, puedes agregar las siguientes configuraciones en tu fichero `settings.json` de VS Code:**
 
 ```json
 {
@@ -2601,20 +2601,20 @@ Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=
 ### ***Explicación de las configuraciones en `settings.json`***
 
 - **`[javascript]`:**
-  - **`"editor.defaultFormatter"`:** *Define el formateador por defecto para archivos JavaScript. En este caso, se utiliza `dbaeumer.vscode-eslint`, lo que indica que ESLint se utilizará para formatear el código automáticamente.*
+  - **`"editor.defaultFormatter"`:** *Define el formateador por defecto para ficheros JavaScript. En este caso, se utiliza `dbaeumer.vscode-eslint`, lo que indica que ESLint se utilizará para formatear el código automáticamente.*
 
 - **`eslint.format.enable`:**
   - *Habilita el formateo del código utilizando ESLint en VS Code.*
 
 - **`editor.codeActionsOnSave`:**
   - **`"source.fixAll"`:** *Configura VS Code para que aplique automáticamente todas las correcciones disponibles al guardar (`explicit` indica que las acciones deben ser explícitamente activadas).*
-  - **`"source.organizeImports"`:** *Organiza automáticamente las importaciones al guardar el archivo.*
+  - **`"source.organizeImports"`:** *Organiza automáticamente las importaciones al guardar el fichero.*
 
 - **`files.autoSave`:**
   - **`"afterDelay"`:** *Guarda automáticamente los cambios después de un breve retraso.*
 
 - **`editor.formatOnSave`:**
-  - *Habilita el formateo automático del código al guardar el archivo en VS Code.*
+  - *Habilita el formateo automático del código al guardar el fichero en VS Code.*
 
 ### ***Funcionalidad de las configuraciones***
 

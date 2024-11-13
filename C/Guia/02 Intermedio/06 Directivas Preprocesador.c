@@ -35,7 +35,7 @@
     #define NOMBRE "Daniel"
 #endif
 
-// Directiva #include condicional: Según el sistema operativo, se incluye un archivo de cabecera específico
+// Directiva #include condicional: Según el sistema operativo, se incluye un fichero de cabecera específico
 // Si estamos en Windows, se incluye "windows.h"
 // Si estamos en Linux o macOS, se incluye "unistd.h" (tiene funciones del sistema UNIX como sleep)
 #ifdef _WIN32
@@ -60,7 +60,7 @@ int main(void) {
     // Uso de la macro NOMBRE, que se imprime en pantalla
     printf("Nombre: %s\n", NOMBRE);
 
-    // Uso de las funciones definidas en los archivos de cabecera incluidos
+    // Uso de las funciones definidas en los ficheros de cabecera incluidos
     // Si estamos en Windows, se usa la función Sleep de "windows.h"
     // Si estamos en Linux o macOS, se usa la función sleep de "unistd.h"
     #ifdef _WIN32

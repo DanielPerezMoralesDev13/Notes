@@ -15,7 +15,7 @@ charset = utf-8
 trim_trailing_whitespace = false
 insert_final_newline = false
 
-# Configuración específica para archivos Makefile
+# Configuración específica para ficheros Makefile
 [Makefile]
 indent_style = tab
 # Se asegura de que se usen tabulaciones en Makefile

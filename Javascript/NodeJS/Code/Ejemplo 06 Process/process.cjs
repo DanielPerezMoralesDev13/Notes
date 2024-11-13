@@ -9,7 +9,7 @@ console.log(globalThis.process)
 // 'process.argv' es una propiedad que contiene un array de los argumentos de línea de comandos pasados cuando se inició el proceso de Node.js.
 // Los primeros dos elementos son:
 // 1. La ruta del ejecutable de Node.js.
-// 2. La ruta del archivo JavaScript que se está ejecutando.
+// 2. La ruta del fichero JavaScript que se está ejecutando.
 // Los siguientes elementos son los argumentos adicionales proporcionados.
 console.log(process.argv)
 /*
@@ -18,7 +18,7 @@ node process.cjs Daniel Perez Morales 18 Programador Batman
 La salida sería:
 [
   '/home/d4nitrix13/.fnm/node-versions/v20.15.0/installation/bin/node', // Ruta del ejecutable de Node.js
-  '/home/d4nitrix13/Desktop/NodeJs/Code/Ejemplo 06 Process/process.cjs', // Ruta del archivo que se está ejecutando
+  '/home/d4nitrix13/Desktop/NodeJs/Code/Ejemplo 06 Process/process.cjs', // Ruta del fichero que se está ejecutando
   'Daniel', // Argumentos adicionales
   'Perez',
   'Morales',

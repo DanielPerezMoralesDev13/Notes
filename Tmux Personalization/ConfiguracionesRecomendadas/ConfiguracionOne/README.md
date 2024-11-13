@@ -276,7 +276,7 @@
     - **Uso:** *`list-windows`*
 
 11. **`load-buffer`**
-    - **Acción:** *Carga un buffer previamente guardado desde un archivo en el buffer actual de tmux. Esto es útil para restaurar texto copiado que se guardó en un archivo.*
+    - **Acción:** *Carga un buffer previamente guardado desde un fichero en el buffer actual de tmux. Esto es útil para restaurar texto copiado que se guardó en un fichero.*
     - **Uso:** *`load-buffer <file>`*
 
 12. **`lock-client`**
@@ -305,7 +305,7 @@
 
 #### ***Sintaxis básica de `tmux.conf`***
 
-**El archivo de configuración de `tmux` (`tmux.conf`) utiliza una serie de comandos que controlan las diferentes opciones y comportamientos de `tmux`. La sintaxis básica de los comandos es:**
+**El fichero de configuración de `tmux` (`tmux.conf`) utiliza una serie de comandos que controlan las diferentes opciones y comportamientos de `tmux`. La sintaxis básica de los comandos es:**
 
 ```bash
 set [-g | -s] option value
@@ -554,7 +554,7 @@ bind r source-file ~/.config/tmux/tmux.conf\; display-message "Config reloaded ~
 **Explicación:**
 
 - **`unbind r`:** *Desvincula cualquier acción previamente asignada a la tecla `r`.*
-- **`bind r source-file ~/.config/tmux/tmux.conf\; display-message "Config reloaded ~/.config/tmux/tmux.conf!"`:** *Vuelve a vincular la tecla `r` para que recargue el archivo de configuración de `tmux` y muestre un mensaje de confirmación cuando se realice.*
+- **`bind r source-file ~/.config/tmux/tmux.conf\; display-message "Config reloaded ~/.config/tmux/tmux.conf!"`:** *Vuelve a vincular la tecla `r` para que recargue el fichero de configuración de `tmux` y muestre un mensaje de confirmación cuando se realice.*
 
 ### ***5. Undercurl***
 
@@ -595,11 +595,11 @@ run -b '~/.tmux/plugins/tpm/tpm'
 - **`run -b '~/.tmux/plugins/tpm/tpm'`:** *Ejecuta `tpm` en segundo plano para cargar los plugins.*
 
 > [!IMPORTANT]
-> *Este es seccion en la configuración de **tmux** basado en el repositorio de [gpakosz/.tmux](https://github.com/gpakosz/.tmux "https://github.com/gpakosz/.tmux"). Esta configuración incluye muchas opciones y atajos personalizados para mejorar la experiencia de uso de **tmux**. A continuación, te explico cada sección del archivo:*
+> *Este es seccion en la configuración de **tmux** basado en el repositorio de [gpakosz/.tmux](https://github.com/gpakosz/.tmux "https://github.com/gpakosz/.tmux"). Esta configuración incluye muchas opciones y atajos personalizados para mejorar la experiencia de uso de **tmux**. A continuación, te explico cada sección del fichero:*
 
 ### ***Comentario General***
 
-*El siguiente código proviene de un archivo de configuración de `tmux`, específicamente del repositorio de [Gregory Pakosz](https://github.com/gpakosz/.tmux "https://github.com/gpakosz/.tmux"). Este archivo está licenciado bajo dos licencias: WTFPL v2 y MIT, lo que permite su uso libre bajo ciertas condiciones, pero sin garantía alguna.*
+*El siguiente código proviene de un fichero de configuración de `tmux`, específicamente del repositorio de [Gregory Pakosz](https://github.com/gpakosz/.tmux "https://github.com/gpakosz/.tmux"). Este fichero está licenciado bajo dos licencias: WTFPL v2 y MIT, lo que permite su uso libre bajo ciertas condiciones, pero sin garantía alguna.*
 
 ### ***Línea de Comentario (Shebang)***
 
@@ -621,13 +621,13 @@ run -b '~/.tmux/plugins/tpm/tpm'
 ```
 
 - **Símbolo:** *`#`*
-- **Función:** *Comenta las líneas que proveen información sobre la fuente del archivo y su licencia.*
+- **Función:** *Comenta las líneas que proveen información sobre la fuente del fichero y su licencia.*
 - **Enlace:** *`https://github.com/gpakosz/.tmux` es la URL del repositorio de donde proviene la configuración.*
 - **Licencias:** *WTFPL v2 y MIT. Ambas licencias permiten modificar y redistribuir el código, con ciertas condiciones:*
   - **WTFPL v2:** *`"Do What The F*ck You Want To Public License"` es una licencia permisiva con solo dos cláusulas: debes hacer lo que quieras con el código, y debes mantener la licencia intacta en cualquier redistribución.*
   - **MIT License:** *Permite el uso, copia, modificación, fusión, publicación, distribución y sublicencia del software, siempre y cuando se incluya una copia del aviso de derechos de autor y la licencia en todas las copias o partes sustanciales del software.*
 
-### ***Advertencia para No Editar el Archivo***
+### ***Advertencia para No Editar el Fichero***
 
 ```bash
 # ------------------------------------------------------------------------------
@@ -637,8 +637,8 @@ run -b '~/.tmux/plugins/tpm/tpm'
 ```
 
 - **Símbolo:** *`#`*
-- **Función:** *Comenta líneas que advierten al usuario que no debe editar este archivo directamente.*
-- **Advertencia:** *El archivo está diseñado para no ser modificado directamente. Cualquier personalización debe hacerse en un archivo de configuración local (`.local`), tal como se menciona en el archivo `README.md`.*
+- **Función:** *Comenta líneas que advierten al usuario que no debe editar este fichero directamente.*
+- **Advertencia:** *El fichero está diseñado para no ser modificado directamente. Cualquier personalización debe hacerse en un fichero de configuración local (`.local`), tal como se menciona en el fichero `README.md`.*
 
 ### ***Sección General***
 
@@ -808,7 +808,7 @@ setw -q -g utf8 on
 - **Comando:** *`new-window`*
   - **Función:** *Crea una nueva ventana en `tmux`.*
 - **Opción `-n "#{TMUX_CONF_LOCAL}"`:**
-  - **Función:** *Asigna un nombre a la nueva ventana basado en la variable `#{TMUX_CONF_LOCAL}`. Esta variable representa el archivo de configuración local de `tmux`.*
+  - **Función:** *Asigna un nombre a la nueva ventana basado en la variable `#{TMUX_CONF_LOCAL}`. Esta variable representa el fichero de configuración local de `tmux`.*
 
 #### ***Explicacion de comandos no usados `-e EDITOR="$EDITOR"`***
 
@@ -824,16 +824,16 @@ setw -q -g utf8 on
   - **`${EDITOR:-vim}`:**
     - **Función:** *Usa el editor configurado en `EDITOR` o, si no está definido, utiliza `vim` como valor predeterminado.*
   - **`*vim*) ${EDITOR:-vim} -c ":set syntax=tmux" "$TMUX_CONF_LOCAL";;`:**
-    - **Función:** *Si el editor es `vim` (o una variante de `vim`), abre el archivo de configuración local `TMUX_CONF_LOCAL` con el comando `vim` y configura la sintaxis para `tmux` (`:set syntax=tmux`).*
+    - **Función:** *Si el editor es `vim` (o una variante de `vim`), abre el fichero de configuración local `TMUX_CONF_LOCAL` con el comando `vim` y configura la sintaxis para `tmux` (`:set syntax=tmux`).*
   - **`*) $EDITOR "$TMUX_CONF_LOCAL";;`:**
-    - **Función:** *Si se está usando un editor que no sea `vim`, simplemente abre el archivo de configuración con el editor especificado en `EDITOR`.*
+    - **Función:** *Si se está usando un editor que no sea `vim`, simplemente abre el fichero de configuración con el editor especificado en `EDITOR`.*
 
 #### ***Explicacion de comandos no usados `"$TMUX_PROGRAM" ${TMUX_SOCKET:+-S "$TMUX_SOCKET"} source "$TMUX_CONF"`***
 
 - **Comando:** *`"$TMUX_PROGRAM"`*
   - **Función:** *Ejecuta el programa `tmux` en sí mismo, que está almacenado en la variable `TMUX_PROGRAM`.*
 - **Opción `source "$TMUX_CONF"`:**
-  - **Función:** *Recarga el archivo de configuración principal de `tmux`, especificado en `TMUX_CONF`, después de que el archivo de configuración local haya sido editado.*
+  - **Función:** *Recarga el fichero de configuración principal de `tmux`, especificado en `TMUX_CONF`, después de que el fichero de configuración local haya sido editado.*
 - **`${TMUX_SOCKET:+-S "$TMUX_SOCKET"}`:**
   - **Función:** *Si la variable `TMUX_SOCKET` está definida, añade la opción `-S "$TMUX_SOCKET"`, lo que especifica un socket de `tmux` personalizado. Esto es útil para configuraciones avanzadas donde se utilizan múltiples instancias de `tmux`.*
 
@@ -842,7 +842,7 @@ setw -q -g utf8 on
 - **Comando:** *`display`*
   - **Función:** *Muestra un mensaje en la barra de estado de `tmux`.*
 - **Mensaje `"$TMUX_CONF_LOCAL sourced"`:**
-  - **Función:** *Informa al usuario que el archivo de configuración local `TMUX_CONF_LOCAL` ha sido recargado exitosamente.*
+  - **Función:** *Informa al usuario que el fichero de configuración local `TMUX_CONF_LOCAL` ha sido recargado exitosamente.*
 
 ### ***Explicacion de comandos no usados Comando para Recargar la Configuración***
 
@@ -862,17 +862,17 @@ bind r run '"$TMUX_PROGRAM" ${TMUX_SOCKET:+-S "$TMUX_SOCKET"} source "$TMUX_CONF
 - **Comando:** *`run`*
   - **Función:** *Ejecuta un comando de shell dentro de `tmux`.*
 - **`"$TMUX_PROGRAM" ${TMUX_SOCKET:+-S "$TMUX_SOCKET"} source "$TMUX_CONF"`:**
-  - **Función:** *Este comando recarga el archivo de configuración principal `TMUX_CONF` utilizando el programa `tmux`. Como se explicó anteriormente, la parte `${TMUX_SOCKET:+-S "$TMUX_SOCKET"}` especifica un socket de `tmux` personalizado si `TMUX_SOCKET` está definido.*
+  - **Función:** *Este comando recarga el fichero de configuración principal `TMUX_CONF` utilizando el programa `tmux`. Como se explicó anteriormente, la parte `${TMUX_SOCKET:+-S "$TMUX_SOCKET"}` especifica un socket de `tmux` personalizado si `TMUX_SOCKET` está definido.*
 
 #### ***Explicacion de comandos no usados `\; display "#{TMUX_CONF} sourced"`***
 
 - **Comando:** *`display`*
   - **Función:** *Muestra un mensaje en la barra de estado de `tmux`.*
 - **Mensaje `#{TMUX_CONF} sourced`:**
-  - **Función:** *Informa al usuario que el archivo de configuración `TMUX_CONF` ha sido recargado exitosamente.*
+  - **Función:** *Informa al usuario que el fichero de configuración `TMUX_CONF` ha sido recargado exitosamente.*
 
 > [!NOTE]
-> *Estos comandos de `tmux` proporcionan atajos convenientes para editar y recargar la configuración de `tmux` directamente desde una sesión activa. Con `prefix + e`, se abre el archivo de configuración local en una nueva ventana de `tmux` usando el editor de texto preferido. Después de hacer cambios, el archivo de configuración principal se recarga automáticamente, asegurando que las nuevas configuraciones se apliquen de inmediato. Con `prefix + r`, se puede recargar rápidamente el archivo de configuración principal sin necesidad de abrir un editor, aplicando cualquier cambio que se haya hecho directamente en el archivo de configuración.*
+> *Estos comandos de `tmux` proporcionan atajos convenientes para editar y recargar la configuración de `tmux` directamente desde una sesión activa. Con `prefix + e`, se abre el fichero de configuración local en una nueva ventana de `tmux` usando el editor de texto preferido. Después de hacer cambios, el fichero de configuración principal se recarga automáticamente, asegurando que las nuevas configuraciones se apliquen de inmediato. Con `prefix + r`, se puede recargar rápidamente el fichero de configuración principal sin necesidad de abrir un editor, aplicando cualquier cambio que se haya hecho directamente en el fichero de configuración.*
 
 ### ***Numeración de Ventanas y Paneles***
 

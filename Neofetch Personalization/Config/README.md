@@ -61,7 +61,7 @@ print_info() {
 #### ***Determinación del Símbolo del Sistema***
 
 ```bash
-  # Leer la primera palabra del archivo /var/log/installer/media-info
+  # Leer la primera palabra del fichero /var/log/installer/media-info
   dist=$(awk '{print $1}' /var/log/installer/media-info | tr '[:upper:]' '[:lower:]')
 
   # Determinar el símbolo basado en el valor
@@ -81,7 +81,7 @@ print_info() {
   esac
 ```
 
-- *`dist=$(awk '{print $1}' /var/log/installer/media-info | tr '[:upper:]' '[:lower:]')`: Lee la primera palabra del archivo `/var/log/installer/media-info`, la convierte a minúsculas y la asigna a la variable `dist`. Este archivo generalmente contiene información sobre la distribución del sistema.*
+- *`dist=$(awk '{print $1}' /var/log/installer/media-info | tr '[:upper:]' '[:lower:]')`: Lee la primera palabra del fichero `/var/log/installer/media-info`, la convierte a minúsculas y la asigna a la variable `dist`. Este fichero generalmente contiene información sobre la distribución del sistema.*
 - *`case "$dist"`: Dependiendo del valor de `dist`, asigna un símbolo específico a la variable `symbol`. Esto permite personalizar los iconos según la distribución del sistema operativo:*
   - *`ubuntu`, `xubuntu`, `lubuntu` → símbolo para distribuciones basadas en Ubuntu.*
   - *`arch` → símbolo para Arch Linux.*
@@ -1063,7 +1063,7 @@ col_offset="auto"
    - **Ejemplo:** *`image_backend='ascii'` usa el backend `ascii`.*
 
 2. **Fuente de Imagen (`--source`)**
-   - **Descripción:** *Especifica la fuente de la imagen o archivo ASCII a mostrar.*
+   - **Descripción:** *Especifica la fuente de la imagen o fichero ASCII a mostrar.*
    - **Valores:**
      - **`'auto'`:** *Selecciona automáticamente la mejor fuente según el backend.*
      - **`'/path/to/img'`:** *Ruta a una imagen específica.*
@@ -1156,7 +1156,7 @@ col_offset="auto"
 
 print_info() {
 
-  # Leer la primera palabra del archivo /var/log/installer/media-info
+  # Leer la primera palabra del fichero /var/log/installer/media-info
   dist=$(awk '{print $1}' /var/log/installer/media-info | tr '[:upper:]' '[:lower:]')
 
   # Determinar el símbolo basado en el valor

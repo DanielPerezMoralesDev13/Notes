@@ -64,9 +64,9 @@ npx eslint --init
 
   - *Este comando intentará corregir automáticamente los problemas que ESLint puede resolver según las reglas configuradas.*
 
-### ***Archivo `eslint.config.mjs`***
+### ***Fichero `eslint.config.mjs`***
 
-- **El archivo `eslint.config.mjs` contiene la configuración de ESLint para tu proyecto. Aquí un ejemplo de configuración básica:**
+- **El fichero `eslint.config.mjs` contiene la configuración de ESLint para tu proyecto. Aquí un ejemplo de configuración básica:**
 
 ```javascript
 import pluginJs from '@eslint/js';
@@ -122,15 +122,15 @@ export default [
 
 **Algunos comandos adicionales que podrían ser útiles:**
 
-- **Verificar solo archivos específicos:**
+- **Verificar solo ficheros específicos:**
 
   ```bash
-  npx eslint archivo.js
+  npx eslint fichero.js
   ```
 
-  - *Esto analizará solo el archivo `archivo.js` en lugar de todo el proyecto.*
+  - *Esto analizará solo el fichero `fichero.js` en lugar de todo el proyecto.*
 
-- **Verificar archivos y mostrar solo errores (sin advertencias):**
+- **Verificar ficheros y mostrar solo errores (sin advertencias):**
 
   ```bash
   npx eslint --quiet .

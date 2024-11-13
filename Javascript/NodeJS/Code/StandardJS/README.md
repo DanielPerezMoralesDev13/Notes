@@ -52,7 +52,7 @@ npm install standard --save-dev
 }
 ```
 
-- *Esto indica a ESLint que extienda las reglas definidas en el archivo `eslintrc.json` de Standard que se encuentra en la ubicación especificada. De esta manera, puedes usar Standard para aplicar sus reglas de estilo directamente a través de ESLint.*
+- *Esto indica a ESLint que extienda las reglas definidas en el fichero `eslintrc.json` de Standard que se encuentra en la ubicación especificada. De esta manera, puedes usar Standard para aplicar sus reglas de estilo directamente a través de ESLint.*
 
 ### ***Documentación Adicional***
 
@@ -63,9 +63,9 @@ npm install standard --save-dev
 
 - *Standard es una opción popular entre los desarrolladores que prefieren un enfoque simple y directo para mantener la consistencia del código JavaScript sin tener que personalizar extensivamente las reglas de estilo.*
 
-### ***Configuración en el archivo `settings.json` de VS Code***
+### ***Configuración en el fichero `settings.json` de VS Code***
 
-**Para integrar ESLint con VS Code y configurar el comportamiento del editor, puedes agregar las siguientes configuraciones en tu archivo `settings.json` de VS Code:**
+**Para integrar ESLint con VS Code y configurar el comportamiento del editor, puedes agregar las siguientes configuraciones en tu fichero `settings.json` de VS Code:**
 
 ```json
 {
@@ -85,20 +85,20 @@ npm install standard --save-dev
 ### ***Explicación de las configuraciones en `settings.json`***
 
 - **`[javascript]`:**
-  - **`"editor.defaultFormatter"`:** *Define el formateador por defecto para archivos JavaScript. En este caso, se utiliza `dbaeumer.vscode-eslint`, lo que indica que ESLint se utilizará para formatear el código automáticamente.*
+  - **`"editor.defaultFormatter"`:** *Define el formateador por defecto para ficheros JavaScript. En este caso, se utiliza `dbaeumer.vscode-eslint`, lo que indica que ESLint se utilizará para formatear el código automáticamente.*
 
 - **`eslint.format.enable`:**
   - *Habilita el formateo del código utilizando ESLint en VS Code.*
 
 - **`editor.codeActionsOnSave`:**
   - **`"source.fixAll"`:** *Configura VS Code para que aplique automáticamente todas las correcciones disponibles al guardar (`explicit` indica que las acciones deben ser explícitamente activadas).*
-  - **`"source.organizeImports"`:** *Organiza automáticamente las importaciones al guardar el archivo.*
+  - **`"source.organizeImports"`:** *Organiza automáticamente las importaciones al guardar el fichero.*
 
 - **`files.autoSave`:**
   - **`"afterDelay"`:** *Guarda automáticamente los cambios después de un breve retraso.*
 
 - **`editor.formatOnSave`:**
-  - *Habilita el formateo automático del código al guardar el archivo en VS Code.*
+  - *Habilita el formateo automático del código al guardar el fichero en VS Code.*
 
 ### ***Funcionalidad de las configuraciones***
 

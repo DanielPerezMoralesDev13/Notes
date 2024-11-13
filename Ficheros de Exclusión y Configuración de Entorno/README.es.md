@@ -2,17 +2,17 @@
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
 
-# ***Archivos de Exclusión y Configuración de Entorno***
+# ***Ficheros de Exclusión y Configuración de Entorno***
 
-- *Este archivo contiene las configuraciones de entorno para ignorar archivos y directorios específicos en varios sistemas y herramientas de desarrollo. Se incluyen configuraciones para:*
+- *Este fichero contiene las configuraciones de entorno para ignorar ficheros y directorios específicos en varios sistemas y herramientas de desarrollo. Se incluyen configuraciones para:*
 
-- **.gitignore:** *Archivos y carpetas que no deben ser rastreados por Git.*
-- **.dockerignore:** *Archivos que no deben ser incluidos en las imágenes Docker.*
-- **.npmignore:** *Archivos que deben ser ignorados cuando se publica un paquete en npm.*
-- **.prettierignore:** *Archivos que deben ser ignorados por Prettier al formatear código.*
+- **.gitignore:** *Ficheros y carpetas que no deben ser rastreados por Git.*
+- **.dockerignore:** *Ficheros que no deben ser incluidos en las imágenes Docker.*
+- **.npmignore:** *Ficheros que deben ser ignorados cuando se publica un paquete en npm.*
+- **.prettierignore:** *Ficheros que deben ser ignorados por Prettier al formatear código.*
 - **editorconfig:** *Configuraciones para definir reglas consistentes de estilo de código entre diferentes editores y IDEs.*
 
-- *Estas configuraciones ayudan a mantener limpio el repositorio y asegurar que ciertos archivos no sean incluidos en los procesos de compilación o distribución, mejorando el rendimiento y la eficiencia.*
+- *Estas configuraciones ayudan a mantener limpio el repositorio y asegurar que ciertos ficheros no sean incluidos en los procesos de compilación o distribución, mejorando el rendimiento y la eficiencia.*
 
 ## ***Contribuciones***
 

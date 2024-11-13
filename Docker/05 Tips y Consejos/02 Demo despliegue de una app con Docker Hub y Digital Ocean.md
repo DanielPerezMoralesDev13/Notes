@@ -227,7 +227,7 @@ docker login -u d4nitrix13
 docker login
 ```
 
-- **Se te pedirá que ingreses tu nombre de usuario y contraseña. Después de ingresar tus credenciales, Docker guardará tu contraseña en un archivo de configuración en tu máquina local, que por defecto está en `/home/tu_usuario/.docker/config.json`.**
+- **Se te pedirá que ingreses tu nombre de usuario y contraseña. Después de ingresar tus credenciales, Docker guardará tu contraseña en un fichero de configuración en tu máquina local, que por defecto está en `/home/tu_usuario/.docker/config.json`.**
 
 **Ejemplo de salida completa:**
 

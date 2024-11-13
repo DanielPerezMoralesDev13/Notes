@@ -5,17 +5,17 @@
 -- Imprime el directorio de trabajo actual -> os.getenv(variable de entorno)
 print("os.getenv(\"PWD\") -> " .. os.getenv("PWD"))
 
--- Ejecuta un comando en el sistema operativo para crear un archivo de Python llamado 'fichero.py' con un simple comando de impresión
+-- Ejecuta un comando en el sistema operativo para crear un fichero de Python llamado 'fichero.py' con un simple comando de impresión
 os.execute("echo 'print('Daniel Benjamin Perez Morales')' > fichero.py")
 
--- Renombra el archivo 'fichero.py' a 'name.py'
+-- Renombra el fichero 'fichero.py' a 'name.py'
 print("os.rename(\"./fichero.py\",name.py)")
 os.rename("./fichero.py","./name.py")
 
--- Elimina el archivo 'name.py'
+-- Elimina el fichero 'name.py'
 os.remove("./name.py")
 
--- Ejecuta un comando en el sistema operativo para listar los archivos en el directorio actual, utilizando el comando 'lsd -la' si está disponible, de lo contrario, utiliza 'ls -la'
+-- Ejecuta un comando en el sistema operativo para listar los ficheros en el directorio actual, utilizando el comando 'lsd -la' si está disponible, de lo contrario, utiliza 'ls -la'
 os.execute("lsd -la || ls -la")
 
 -- Inicia un temporizador y realiza una suma iterativa en un bucle 'for' desde 1 hasta 10000, luego imprime el tiempo transcurrido

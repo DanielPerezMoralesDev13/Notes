@@ -21,7 +21,7 @@
 
 ## **Uso**
 
-> *Para utilizar la guía de sintaxis de Markdown y los ejemplos proporcionados en este repositorio, simplemente consulta los archivos Markdown en el directorio correspondiente. Puedes copiar y pegar el código Markdown en tus propios ficheros y personalizarlo según tus necesidades.*
+> *Para utilizar la guía de sintaxis de Markdown y los ejemplos proporcionados en este repositorio, simplemente consulta los ficheros Markdown en el directorio correspondiente. Puedes copiar y pegar el código Markdown en tus propios ficheros y personalizarlo según tus necesidades.*
 
 ## ***Contribuciones***
 

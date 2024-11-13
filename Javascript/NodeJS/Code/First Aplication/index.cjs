@@ -2,15 +2,15 @@
 // GitHub: https://github.com/DanielPerezMoralesDev13
 // Correo electrónico: danielperezdev@proton.me
 
-// Importamos el módulo 'fs/promises' para trabajar con el sistema de archivos usando Promesas
+// Importamos el módulo 'fs/promises' para trabajar con el sistema de ficheros usando Promesas
 const fs = require('node:fs/promises')
 
 // Utilizamos 'fs.readdir' para leer el contenido del directorio actual ('.')
 // Este método devuelve una Promesa, por lo que usamos '.then' y '.catch' para manejar el resultado y los errores
 fs.readdir('.')
   .then(files => {
-    // 'files' es un array con los nombres de los archivos y directorios en el directorio actual
-    // Usamos 'forEach' para iterar sobre cada archivo/directorio y lo imprimimos en la consola
+    // 'files' es un array con los nombres de los ficheros y directorios en el directorio actual
+    // Usamos 'forEach' para iterar sobre cada fichero/directorio y lo imprimimos en la consola
     files.forEach(file => {
       console.log(file)
     })
@@ -24,7 +24,7 @@ fs.readdir('.')
   })
 
 // Forma con callbacks
-// Importamos el módulo 'fs' para trabajar con el sistema de archivos usando callbacks
+// Importamos el módulo 'fs' para trabajar con el sistema de ficheros usando callbacks
 // const fs = require('node:fs')
 
 // Usamos 'fs.readdir' para leer el contenido del directorio actual ('./')
@@ -35,8 +35,8 @@ fs.readdir('.')
 //         // Imprimimos un mensaje de error en la consola
 //         console.error("Error al leer el directorio:", err);
 //     }
-//     // 'files' es un array con los nombres de los archivos y directorios en el directorio actual
-//     // Usamos 'forEach' para iterar sobre cada archivo/directorio y lo imprimimos en la consola
+//     // 'files' es un array con los nombres de los ficheros y directorios en el directorio actual
+//     // Usamos 'forEach' para iterar sobre cada fichero/directorio y lo imprimimos en la consola
 //     files.forEach(file => {
 //         console.log(file);
 //     });

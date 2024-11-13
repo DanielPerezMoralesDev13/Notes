@@ -2,7 +2,7 @@
 -- GitHub: https://github.com/DanielPerezMoralesDev13
 -- Correo electrónico: danielperezdev@proton.me
 
--- Se importa el módulo local "module" desde el archivo "module.lua"
+-- Se importa el módulo local "module" desde el fichero "module.lua"
 local modulo = require("./module")
 
 -- Se llama a la función "sumar" del módulo importado y se pasan los números del 1 al 10 como argumentos

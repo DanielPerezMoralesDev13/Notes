@@ -14,7 +14,7 @@
 
 ## ***Descripción***
 
-**En este repositorio, encontrarás un archivo de configuración de **Lazygit** que personaliza varios aspectos de la herramienta, incluyendo:**
+**En este repositorio, encontrarás un fichero de configuración de **Lazygit** que personaliza varios aspectos de la herramienta, incluyendo:**
 
 - **Atajos de teclado:** *Personalización de atajos para acciones comunes como commits, cambios de rama, y manejo de stashes.*
 - **Comandos personalizados:** *Inclusión de comandos específicos para abrir PRs y navegar en GitHub directamente desde Lazygit.*
@@ -32,7 +32,7 @@
    git clone https://github.com/DanielPerezMoralesDev13/Lazygit-Personalization.git --depth=1 --verbose
    ```
 
-2. *Copia el archivo de configuración (`lazygit/config.yml`) a tu directorio de configuración de `lazygit`:*
+2. *Copia el fichero de configuración (`lazygit/config.yml`) a tu directorio de configuración de `lazygit`:*
 
    ```bash
    cp Lazygit-Personalization/config.yml ~/.config/lazygit/config.yml

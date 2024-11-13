@@ -9,15 +9,15 @@
 // GitHub: https://github.com/DanielPerezMoralesDev13
 // Correo electrónico: danielperezdev@proton.me
 
-// Importamos el módulo 'fs/promises' para trabajar con el sistema de archivos usando Promesas
+// Importamos el módulo 'fs/promises' para trabajar con el sistema de ficheros usando Promesas
 const fs = require('node:fs/promises');
 
 // Utilizamos 'fs.readdir' para leer el contenido del directorio actual ('.')
 // Este método devuelve una Promesa, por lo que usamos '.then' y '.catch' para manejar el resultado y los errores
 fs.readdir('.')
     .then(files => {
-        // 'files' es un array con los nombres de los archivos y directorios en el directorio actual
-        // Usamos 'forEach' para iterar sobre cada archivo/directorio y lo imprimimos en la consola
+        // 'files' es un array con los nombres de los ficheros y directorios en el directorio actual
+        // Usamos 'forEach' para iterar sobre cada fichero/directorio y lo imprimimos en la consola
         files.forEach(file => {
             console.log(file);
         });
@@ -32,7 +32,7 @@ fs.readdir('.')
     });
 
 // Forma con callbacks
-// Importamos el módulo 'fs' para trabajar con el sistema de archivos usando callbacks
+// Importamos el módulo 'fs' para trabajar con el sistema de ficheros usando callbacks
 // const fs = require('node:fs')
 
 // Usamos 'fs.readdir' para leer el contenido del directorio actual ('./')
@@ -43,8 +43,8 @@ fs.readdir('.')
 //         // Imprimimos un mensaje de error en la consola
 //         console.error("Error al leer el directorio:", err);
 //     }
-//     // 'files' es un array con los nombres de los archivos y directorios en el directorio actual
-//     // Usamos 'forEach' para iterar sobre cada archivo/directorio y lo imprimimos en la consola
+//     // 'files' es un array con los nombres de los ficheros y directorios en el directorio actual
+//     // Usamos 'forEach' para iterar sobre cada fichero/directorio y lo imprimimos en la consola
 //     files.forEach(file => {
 //         console.log(file);
 //     });
@@ -54,16 +54,16 @@ fs.readdir('.')
 ## ***Explicación***
 
 1. **Uso de Promesas con `fs/promises`:**
-    - ***Importación del Módulo:** Se importa `fs/promises` para usar las funciones de sistema de archivos basadas en Promesas.*
+    - ***Importación del Módulo:** Se importa `fs/promises` para usar las funciones de sistema de ficheros basadas en Promesas.*
     - ***Lectura de Directorio:** `fs.readdir('.')` lee el contenido del directorio actual y devuelve una Promesa.*
-    - ***Manejo de Resultados con `.then`:** Si la operación es exitosa, `.then` recibe un array `files` que contiene los nombres de los archivos y directorios. Usamos `forEach` para imprimir cada nombre en la consola.*
+    - ***Manejo de Resultados con `.then`:** Si la operación es exitosa, `.then` recibe un array `files` que contiene los nombres de los ficheros y directorios. Usamos `forEach` para imprimir cada nombre en la consola.*
     - ***Manejo de Errores con `.catch`:** Si ocurre un error, se captura en `.catch`, donde se verifica y se imprime un mensaje de error.*
 
 2. **Uso de Callbacks con `fs`:**
-    - ***Importación del Módulo:** Se importa `fs` para usar las funciones de sistema de archivos basadas en callbacks.*
+    - ***Importación del Módulo:** Se importa `fs` para usar las funciones de sistema de ficheros basadas en callbacks.*
     - ***Lectura de Directorio:** `fs.readdir('./', (err, files)` lee el contenido del directorio actual. Este método toma un callback con dos parámetros: `err` y `files`.*
     - ***Manejo de Errores:** Si `err` contiene un error, se imprime un mensaje de error.*
-    - ***Procesamiento de Resultados:** Si no hay error, `files` contiene los nombres de los archivos y directorios. Usamos `forEach` para imprimir cada nombre en la consola.*
+    - ***Procesamiento de Resultados:** Si no hay error, `files` contiene los nombres de los ficheros y directorios. Usamos `forEach` para imprimir cada nombre en la consola.*
 
 ### ***Diferencias Entre Promesas y Callbacks***
 

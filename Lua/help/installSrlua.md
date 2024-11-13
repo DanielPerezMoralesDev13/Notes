@@ -6,17 +6,17 @@
 
 *Este markdown proporciona una serie de comandos de terminal para descargar, descomprimir, compilar e instalar un programa llamado `srlua` en sistemas basados en Linux.*
 
-## ***Paso 1: Descargar el Archivo Comprimido***
+## ***Paso 1: Descargar el Fichero Comprimido***
 
-*Para descargar el archivo comprimido que contiene el programa `srlua`, ejecuta el siguiente comando en tu terminal:*
+*Para descargar el fichero comprimido que contiene el programa `srlua`, ejecuta el siguiente comando en tu terminal:*
 
 ```bash
 wget https://web.tecgraf.puc-rio.br/~lhf/ftp/lua/ar/srlua-102.tar.gz
 ```
 
-### ***Paso 2: Descomprimir el Archivo***
+### ***Paso 2: Descomprimir el Fichero***
 
-*Descomprime el archivo descargado con el siguiente comando:*
+*Descomprime el fichero descargado con el siguiente comando:*
 
 ```bash
 tar -xzvf srlua-102.tar.gz
@@ -80,7 +80,7 @@ ls
 
 ### ***Paso 10: Ejecutar el Binario***
 
-*Ejecuta el binario `srglue` seguido de los archivos de entrada y salida con el siguiente comando:*
+*Ejecuta el binario `srglue` seguido de los ficheros de entrada y salida con el siguiente comando:*
 
 ```bash
 ./srglue srlua ../index.lua ../main

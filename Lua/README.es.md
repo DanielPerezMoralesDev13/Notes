@@ -31,7 +31,7 @@
 
 *Una vez que has instalado Lua, puedes ejecutar los programas incluidos en este repositorio utilizando el intérprete de Lua.*
 
-*Por fichero, si tienes un archivo llamado `fichero.lua`, puedes ejecutarlo de la siguiente manera:*
+*Por fichero, si tienes un fichero llamado `fichero.lua`, puedes ejecutarlo de la siguiente manera:*
 
 ```bash
 lua fichero.lua

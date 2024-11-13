@@ -8,7 +8,7 @@ local moduleValidation = require("moduleValidation")
 local moduleColor = require("moduleColor")
 
 --[[
-Este código Lua tiene como objetivo configurar las rutas de búsqueda de módulos (`package.path`) para incluir directorios específicos donde Lua buscará archivos `.lua` cuando se requieran módulos mediante `require`.
+Este código Lua tiene como objetivo configurar las rutas de búsqueda de módulos (`package.path`) para incluir directorios específicos donde Lua buscará ficheros `.lua` cuando se requieran módulos mediante `require`.
 
 Vamos a desglosarlo:
 
@@ -19,7 +19,7 @@ Vamos a desglosarlo:
    ```
    - `package.path` es una variable predefinida en Lua que indica las rutas de búsqueda para los módulos.
    - `..` se utiliza para concatenar cadenas en Lua.
-   - `";../lib/?.lua"` y `";../Modules/?.lua"` son las rutas especificadas. Estas líneas añaden dos rutas adicionales donde Lua buscará archivos `.lua` cuando se requieran módulos.
+   - `";../lib/?.lua"` y `";../Modules/?.lua"` son las rutas especificadas. Estas líneas añaden dos rutas adicionales donde Lua buscará ficheros `.lua` cuando se requieran módulos.
 
 2. **Requerir módulos:**
    ```lua
@@ -31,7 +31,7 @@ Vamos a desglosarlo:
 
 ### Ejemplo:
 
-Supongamos que tienes la siguiente estructura de directorios y archivos:
+Supongamos que tienes la siguiente estructura de directorios y ficheros:
 
 ```
 /Proyecto
@@ -76,11 +76,11 @@ Vamos a detallarlo:
      ```lua
      package.path = package.path .. ";../Modules/?.lua"
      ```
-     Aquí, `";../Modules/?.lua"` significa que Lua buscará archivos `.lua` dentro del directorio `Modules` (relativo al directorio actual). Cuando se requiera un módulo específico, como `moduleValidation`, Lua buscará un archivo llamado `moduleValidation.lua` dentro de ese directorio.
+     Aquí, `";../Modules/?.lua"` significa que Lua buscará ficheros `.lua` dentro del directorio `Modules` (relativo al directorio actual). Cuando se requiera un módulo específico, como `moduleValidation`, Lua buscará un fichero llamado `moduleValidation.lua` dentro de ese directorio.
 
 ### Ejemplo:
 
-Supongamos que tienes la siguiente estructura de directorios y archivos:
+Supongamos que tienes la siguiente estructura de directorios y ficheros:
 
 ```
 /Proyecto

@@ -12,17 +12,17 @@ console.log(path.sep) // Salida: '/' en Unix, '\' en Windows
 const filePath = path.join('Desktop', 'Directory', 'test.txt')
 console.log(filePath) // Salida: 'Desktop/Directory/test.txt' o 'Desktop\Directory\test.txt'
 
-// Obtener el nombre base del archivo (sin la ruta)
+// Obtener el nombre base del fichero (sin la ruta)
 // Aquí obtendremos 'password.txt' de la ruta completa
 const base = path.basename('/tmp/DirectorySecret/password.txt')
 console.log(base) // Salida: 'password.txt'
 
-// Obtener el nombre del archivo sin la extensión especificada
+// Obtener el nombre del fichero sin la extensión especificada
 // Aquí obtendremos 'password' de 'password.txt'
 const filename = path.basename('/tmp/DirectorySecret/password.txt', '.txt')
 console.log(filename) // Salida: 'password'
 
-// Obtener la extensión del archivo
+// Obtener la extensión del fichero
 // Aquí obtendremos '.py' de 'My.super.code.py'
 const extension = path.extname('My.super.code.py')
 console.log(extension) // Salida: '.py'

@@ -11,7 +11,7 @@
 
 const fs = require('node:fs');
 
-// Leyendo el contenido de un archivo usando un callback
+// Leyendo el contenido de un fichero usando un callback
 console.log('Leyendo el fichero...');
 
 fs.readFile('./fichero.txt', 'utf-8', (err, data) => {
@@ -21,7 +21,7 @@ fs.readFile('./fichero.txt', 'utf-8', (err, data) => {
         console.error('Error al leer el fichero:', err);
         return; // Salir de la función para evitar procesar más
     }
-    // Si no hay error, se procesa el contenido del archivo
+    // Si no hay error, se procesa el contenido del fichero
     console.log('Contenido del fichero:', data);
 });
 
@@ -35,12 +35,12 @@ console.log('--> Haciendo cosas mientras lee el fichero...');
     - *Esto obliga a los desarrolladores a considerar los posibles errores antes de proceder con el procesamiento de los datos.*
 
 2. **Manejo de Errores:**
-    - *En el ejemplo, `fs.readFile` lee el contenido de un archivo. Si ocurre un error (por ejemplo, si el archivo no existe), el argumento `err` contendrá la información sobre el error.*
+    - *En el ejemplo, `fs.readFile` lee el contenido de un fichero. Si ocurre un error (por ejemplo, si el fichero no existe), el argumento `err` contendrá la información sobre el error.*
     - *El bloque `if (err)` verifica si hay un error. Si existe, se maneja adecuadamente (por ejemplo, registrando un mensaje de error y saliendo de la función con `return`).*
 
 3. **Procesamiento de Datos:**
-    - *Si no hay error (`err` es `null` o `undefined`), el callback continúa procesando el contenido del archivo.*
-    - *`data` contiene el contenido del archivo leído y se puede usar según sea necesario.*
+    - *Si no hay error (`err` es `null` o `undefined`), el callback continúa procesando el contenido del fichero.*
+    - *`data` contiene el contenido del fichero leído y se puede usar según sea necesario.*
 
 ### ***Ventajas de la Convención `Error-First`***
 

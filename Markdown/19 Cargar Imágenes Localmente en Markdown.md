@@ -7,20 +7,20 @@
 Para cargar imágenes en local utilizando Markdown, sigue los pasos a continuación:
 
 1. **Ubicación de las Imágenes:**
-   Asegúrate de tener tus imágenes almacenadas localmente en un directorio accesible desde tu archivo Markdown.
+   Asegúrate de tener tus imágenes almacenadas localmente en un directorio accesible desde tu fichero Markdown.
 
 2. **Sintaxis de Markdown:**
-   Usa la siguiente sintaxis para insertar una imagen en tu archivo Markdown:
+   Usa la siguiente sintaxis para insertar una imagen en tu fichero Markdown:
 
    ```markdown
    ![Texto alternativo](ruta/a/la/imagen.png)
    ```
 
    - `Texto alternativo`: Es una descripción opcional de la imagen que aparece si la imagen no puede cargarse o para accesibilidad.
-   - `ruta/a/la/imagen.png`: Es la ruta relativa desde la ubicación de tu archivo Markdown hasta la imagen.
+   - `ruta/a/la/imagen.png`: Es la ruta relativa desde la ubicación de tu fichero Markdown hasta la imagen.
 
-3. **Manejo de Nombres de Archivos con Espacios:**
-   Si el nombre del archivo de imagen contiene espacios, debes escapar cada espacio con `%20`. Por ejemplo:
+3. **Manejo de Nombres de Ficheros con Espacios:**
+   Si el nombre del fichero de imagen contiene espacios, debes escapar cada espacio con `%20`. Por ejemplo:
 
    ```markdown
    ![Texto alternativo](ruta/a/la/imagen%20con%20espacios.png)
@@ -51,4 +51,4 @@ Para cargar imágenes en local utilizando Markdown, sigue los pasos a continuaci
    ```
 
 5. **Visualización:**
-   Al visualizar tu archivo Markdown renderizado, las imágenes deberían aparecer correctamente si la ruta es correcta y el nombre del archivo está escrito correctamente.
+   Al visualizar tu fichero Markdown renderizado, las imágenes deberían aparecer correctamente si la ruta es correcta y el nombre del fichero está escrito correctamente.

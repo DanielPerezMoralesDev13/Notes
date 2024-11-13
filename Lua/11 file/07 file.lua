@@ -2,16 +2,16 @@
 -- GitHub: https://github.com/DanielPerezMoralesDev13
 -- Correo electrónico: danielperezdev@proton.me
 
--- Intenta abrir el archivo "myfile.txt" para lectura
+-- Intenta abrir el fichero "myfile.txt" para lectura
 local fichero = io.open("myfile.txt", "r")
 
--- Verifica si el identificador de archivo no es nil (es decir, si el archivo se abrió correctamente)
+-- Verifica si el identificador de fichero no es nil (es decir, si el fichero se abrió correctamente)
 if fichero then
-    -- Lee todo el contenido del archivo y lo imprime
+    -- Lee todo el contenido del fichero y lo imprime
     print(fichero:read("*all"))
-    -- Cierra el identificador de archivo
+    -- Cierra el identificador de fichero
     fichero:close()
 else
-    -- Maneja el caso en el que el archivo no se pudo abrir
-    print("Error: No se pudo abrir el archivo para leer.")
+    -- Maneja el caso en el que el fichero no se pudo abrir
+    print("Error: No se pudo abrir el fichero para leer.")
 end
