@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
 ```Java
 // Ejemplo Java
-Package Carpeta.Mardown;
+Package Directorio.Mardown;
 public class Ejemplo{
     public Ejemplo(){
 

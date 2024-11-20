@@ -10,7 +10,7 @@ __pycache__/
 # Ignorar extensiones C compiladas
 *.so
 
-# Ignorar ficheros y carpetas relacionados con distribución y empaquetado
+# Ignorar ficheros y directorios relacionados con distribución y empaquetado
 .Python
 build/
 develop-eggs/

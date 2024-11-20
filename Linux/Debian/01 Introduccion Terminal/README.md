@@ -15,7 +15,7 @@
 
 > **Conceptos importantes sobre linux**
 
-1. *Directorio: En programacion un directorio es una carpeta*
+1. *Directorio: En programacion un directorio es una directorio*
 
 2. *Fichero: En programacion un fichero es una fichero con o sin extensio*
 
@@ -33,9 +33,9 @@
 
    1. *Por ejemplo, si tu nombre de usuario es daniel, ~ generalmente se traduciría a /home/daniel.*
 
-5. ***..**: Representa el directorio padre del directorio actual. Entonces, si estás en /home/daniel/Escritorio/carpeta y ejecutas cd .., te moverías al directorio /home/daniel/Escritorio.*
+5. ***..**: Representa el directorio padre del directorio actual. Entonces, si estás en /home/daniel/Escritorio/directorio y ejecutas cd .., te moverías al directorio /home/daniel/Escritorio.*
 
-   1. ***Ejemplo:** ../descargas: Esto te movería al directorio descargas que se encuentra en el mismo nivel que tu directorio actual. Entonces, si estás en /home/daniel/Escritorio/carpeta y ejecutas*
+   1. ***Ejemplo:** ../descargas: Esto te movería al directorio descargas que se encuentra en el mismo nivel que tu directorio actual. Entonces, si estás en /home/daniel/Escritorio/directorio y ejecutas*
 
        ```bash
        cd ../descargas 
@@ -113,7 +113,7 @@
    ```
 
    ```bash
-   ls ../carpeta/
+   ls ../directorio/
    ```
 
    - *Este comando se utiliza para listar los ficheros y directorios en el directorio actual. **Tambien se le puede pasar rutas relativas como absoluta***
@@ -126,11 +126,11 @@
    ```
 
    ```bash
-   mkdir ./Escritorio/carpeta/
+   mkdir ./Escritorio/directorio/
    ```
 
    ```bash
-   mkdir ../carpeta/
+   mkdir ../directorio/
    ```
 
    ```bash
@@ -138,11 +138,11 @@
    ```
 
    ```bash
-   mkdir ./Escritorio/carpeta ./Escritorio/otro/
+   mkdir ./Escritorio/directorio ./Escritorio/otro/
    ```
 
    ```bash
-   mkdir ../carpeta/ ../otro/
+   mkdir ../directorio/ ../otro/
    ```
 
    ```bash
@@ -164,11 +164,11 @@
    ```
 
    ```bash
-   rmdir ./Escritorio/carpeta/
+   rmdir ./Escritorio/directorio/
    ```
 
    ```bash
-   rmdir ../carpeta/
+   rmdir ../directorio/
    ```
 
    ```bash
@@ -176,11 +176,11 @@
    ```
 
    ```bash
-   rmdir ./Escritorio/carpeta/ ./Escritorio/otro/
+   rmdir ./Escritorio/directorio/ ./Escritorio/otro/
    ```
 
    ```bash
-   rmdir ../carpeta/ ../otro/
+   rmdir ../directorio/ ../otro/
    ```
 
    ```bash
@@ -206,11 +206,11 @@
     ```
 
     ```bash
-    touch ./Escritorio/carpeta/fichero.txt
+    touch ./Escritorio/directorio/fichero.txt
     ```
 
     ```bash
-    touch ../carpeta/fichero.txt
+    touch ../directorio/fichero.txt
     ```
 
     ```bash
@@ -218,11 +218,11 @@
     ```
 
     ```bash
-    touch ./Escritorio/carpeta/fichero.txt ./Escritorio/carpeta/fichero2.txt
+    touch ./Escritorio/directorio/fichero.txt ./Escritorio/directorio/fichero2.txt
     ```
 
     ```bash
-    touch ../carpeta/fichero.txt ../carpeta/copia.txt
+    touch ../directorio/fichero.txt ../directorio/copia.txt
     ```
 
     ```bash
@@ -248,11 +248,11 @@
       ```
 
       ```bash
-      rm ./Escritorio/carpeta/fichero.txt
+      rm ./Escritorio/directorio/fichero.txt
       ```
 
       ```bash
-      rm ../carpeta/fichero.txt
+      rm ../directorio/fichero.txt
       ```
 
       ```bash
@@ -260,11 +260,11 @@
       ```
 
       ```bash
-      rm ./Escritorio/carpeta/fichero.txt ./Escritorio/carpeta/copia.txt
+      rm ./Escritorio/directorio/fichero.txt ./Escritorio/directorio/copia.txt
       ```
 
       ```bash
-      rm ../carpeta/fichero.txt ../carpeta/copia.txt
+      rm ../directorio/fichero.txt ../directorio/copia.txt
       ```
 
       ```bash
@@ -294,11 +294,11 @@
       ```
 
       ```bash
-      cp ./Escritorio/carpeta/fichero.txt ./Escritorio/carpeta/copia.txt
+      cp ./Escritorio/directorio/fichero.txt ./Escritorio/directorio/copia.txt
       ```
 
       ```bash
-      cp ../carpeta/fichero.txt ../carpeta/copia.txt
+      cp ../directorio/fichero.txt ../directorio/copia.txt
       ```
 
       - *Se utilizan para copiar ficheros.*
@@ -314,11 +314,11 @@
     ```
 
     ```bash
-    mv ./Escritorio/carpeta/fichero.txt ./Escritorio/carpeta/copia.txt
+    mv ./Escritorio/directorio/fichero.txt ./Escritorio/directorio/copia.txt
     ```
 
     ```bash
-    mv ../carpeta/fichero.txt ../carpeta/copia.txt
+    mv ../directorio/fichero.txt ../directorio/copia.txt
     ```  
 
     - *Este comando mover el fichero a otra ubicacion si ya existe, será sobrescrito.*
@@ -356,27 +356,27 @@
       ```
 
       ```bash
-      cat ./Escritorio/carpeta/fichero.txt
+      cat ./Escritorio/directorio/fichero.txt
       ```
 
       ```bash
-      cat ./Escritorio/carpeta/fichero.txt ./Escritorio/carpeta/fichero2.txt
+      cat ./Escritorio/directorio/fichero.txt ./Escritorio/directorio/fichero2.txt
       ```
 
       ```bash
-      cat ./Escritorio/carpeta/fichero.txt > ./Escritorio/carpeta/fichero2.txt
+      cat ./Escritorio/directorio/fichero.txt > ./Escritorio/directorio/fichero2.txt
       ```
 
       ```bash
-      cat ../carpeta/fichero.txt
+      cat ../directorio/fichero.txt
       ```
 
       ```bash
-      cat ../carpeta/fichero.txt ../carpeta/fichero2.txt
+      cat ../directorio/fichero.txt ../directorio/fichero2.txt
       ```
 
       ```bash
-      cat ../carpeta/fichero.txt > ../carpeta/fichero2.txt
+      cat ../directorio/fichero.txt > ../directorio/fichero2.txt
       ```
 
       ```bash
@@ -440,45 +440,45 @@
        - *Este comando mostrará la ayuda para el comando `ls`*
 
    ```bash
-   rm -r ./carpeta
+   rm -r ./directorio
    ```
 
    ```bash
-   rm -r -i ./carpeta
+   rm -r -i ./directorio
    ```
 
    ```bash
-   rm -ri ./carpeta
+   rm -ri ./directorio
    ```
 
    ```bash
-   rm -ir ./carpeta
+   rm -ir ./directorio
    ```
 
    ```bash
-   rm --recursive ./carpeta 
+   rm --recursive ./directorio 
    ```
 
    ```bash
-   rm --recursive --interactive ./carpeta
+   rm --recursive --interactive ./directorio
    ```
 
    ```bash
-   rm --interactive --recursive ./carpeta
+   rm --interactive --recursive ./directorio
    ```
 
    ```bash
-   rm --recursive -i ./carpeta
+   rm --recursive -i ./directorio
    ```
 
    ```bash
-   rm -i --recursive ./carpeta
+   rm -i --recursive ./directorio
    ```
 
    ```bash
-   rm -r --interactive ./carpeta
+   rm -r --interactive ./directorio
    ```
 
    ```bash
-   rm --interactive -r ./carpeta
+   rm --interactive -r ./directorio
    ```

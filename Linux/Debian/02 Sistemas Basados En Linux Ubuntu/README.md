@@ -13,6 +13,29 @@
 - [***Gestores de paquetes en Linux Ubuntu***](#gestores-de-paquetes-en-linux-ubuntu)
 - [***Cambiar el tema de la terminal en Ubuntu***](#cambiar-el-tema-de-la-terminal-en-ubuntu)
 - [***Permisos en linux***](#permisos-en-linux)
+- [***Permisos en Directorios en Linux***](#permisos-en-directorios-en-linux)
+  - [***Preparación del entorno***](#preparación-del-entorno)
+    - [***Caso 1: Sin permiso de lectura (`r`)***](#caso-1-sin-permiso-de-lectura-r)
+      - [***Comando para quitar el permiso de lectura***](#comando-para-quitar-el-permiso-de-lectura)
+      - [***Qué sucede al listar el directorio***](#qué-sucede-al-listar-el-directorio)
+    - [***Caso 2: Sin permiso de escritura (`w`)***](#caso-2-sin-permiso-de-escritura-w)
+      - [***Comando para quitar el permiso de escritura***](#comando-para-quitar-el-permiso-de-escritura)
+      - [***Qué sucede al intentar crear o modificar un fichero***](#qué-sucede-al-intentar-crear-o-modificar-un-fichero)
+    - [***Caso 3: Sin permiso de ejecución (`x`)***](#caso-3-sin-permiso-de-ejecución-x)
+      - [***Comando para quitar el permiso de ejecución***](#comando-para-quitar-el-permiso-de-ejecución)
+      - [***Efectos de la falta de permiso de ejecución***](#efectos-de-la-falta-de-permiso-de-ejecución)
+    - [***Relación entre permisos***](#relación-entre-permisos)
+    - [***Restaurar permisos***](#restaurar-permisos)
+    - [***Qué sucede si un directorio no tiene todos los permisos y se intenta borrar***](#qué-sucede-si-un-directorio-no-tiene-todos-los-permisos-y-se-intenta-borrar)
+    - [***Permisos necesarios para borrar un directorio***](#permisos-necesarios-para-borrar-un-directorio)
+    - [***Caso: Directorio sin todos los permisos***](#caso-directorio-sin-todos-los-permisos)
+      - [***Comando para eliminar un directorio***](#comando-para-eliminar-un-directorio)
+      - [***Situaciones***](#situaciones)
+    - [***Demostración práctica***](#demostración-práctica)
+      - [***1. Quitar permisos de ejecución del directorio***](#1-quitar-permisos-de-ejecución-del-directorio)
+      - [***2. Quitar permisos de escritura del directorio padre***](#2-quitar-permisos-de-escritura-del-directorio-padre)
+    - [***Solución para borrar un directorio sin permisos***](#solución-para-borrar-un-directorio-sin-permisos)
+    - [***Resumen***](#resumen)
 - [***Enlaces duros y simbolicos***](#enlaces-duros-y-simbolicos)
 - [***Curl***](#curl)
 - [***Jerarquia de directorios***](#jerarquia-de-directorios)
@@ -146,9 +169,9 @@ sudo su
 
 1. ***`APT`** (Advanced Package Tool): Herramienta Avanzada de Paquetes. Es una interfaz de línea de comandos para la gestión de paquetes en Ubuntu y otras distribuciones basadas en Debian. APT simplifica el proceso de instalación, actualización y eliminación de software.*
 
-2. ***`dpkg` (Debian Package):** Paquete Debian. Es el sistema de gestión de paquetes de bajo nivel en Debian y sus derivados, incluyendo Ubuntu. dpkg se utiliza para instalar, eliminar y proporcionar información sobre los paquetes .deb.*
+2. ***`dpkg` (Debian Package):** *Paquete Debian. Es el sistema de gestión de paquetes de bajo nivel en Debian y sus derivados, incluyendo Ubuntu. dpkg se utiliza para instalar, eliminar y proporcionar información sobre los paquetes .deb.**
 
-3. ***`Snap`:** Snap es un sistema de gestión de paquetes desarrollado por Canonical, los creadores de Ubuntu. Los paquetes Snap son autocontenidos, lo que significa que incluyen todas las dependencias necesarias para que la aplicación funcione, lo que facilita su instalación y actualización. "Snap" no es un acrónimo, por lo que no tiene una traducción directa ni un significado más allá de ser el nombre del sistema de gestión de paquetes.*
+3. ***`Snap`:** *Snap es un sistema de gestión de paquetes desarrollado por Canonical, los creadores de Ubuntu. Los paquetes Snap son autocontenidos, lo que significa que incluyen todas las dependencias necesarias para que la aplicación funcione, lo que facilita su instalación y actualización. "Snap" no es un acrónimo, por lo que no tiene una traducción directa ni un significado más allá de ser el nombre del sistema de gestión de paquetes.**
 
 > *El comando apt list en Ubuntu y otras distribuciones basadas en Debian se utiliza para listar los paquetes disponibles en los repositorios de software configurados en el sistema.*
 
@@ -182,13 +205,13 @@ apt list <nombre_del_paquete>
 
 > *Los comandos sudo apt-get update y sudo apt-get upgrade son comandos fundamentales en Ubuntu y otras distribuciones basadas en Debian para mantener el sistema actualizado.*
 
-1. **`sudo apt-get update`:** *Este comando descarga la lista de paquetes desde los repositorios y "actualiza" la lista de paquetes disponibles y sus versiones, pero no instala ni actualiza ningún paquete.*
+1. **`sudo apt-get update`:** **Este comando descarga la lista de paquetes desde los repositorios y "actualiza" la lista de paquetes disponibles y sus versiones, pero no instala ni actualiza ningún paquete.**
 
    ```bash
    sudo apt-get update
    ```
 
-**`sudo apt-get upgrade`:** *Este comando instala las versiones más recientes de todos los paquetes actualmente instalados en el sistema a partir de las listas de paquetes recuperadas con apt-get update.*
+**`sudo apt-get upgrade`:** **Este comando instala las versiones más recientes de todos los paquetes actualmente instalados en el sistema a partir de las listas de paquetes recuperadas con apt-get update.**
 
 ```bash
 sudo apt-get upgrade
@@ -411,13 +434,13 @@ sudo apt-get install -y curl
 
 > *En linux existen diferentes tipos de permisos para los ficheros y directorios, estos son: **lectura**, **escritura** y **ejecución**. Los tres primeros son para el usuario, los otros tres permisos son para grupos y los ultimos tres permisos son para otros usuario*
 
-1. ***Lectura:** Permite ver el contenido del fichero o directorio.*
+1. ***Lectura:** *Permite ver el contenido del fichero o directorio.**
 
-2. ***Escritura:** Permite modificar el contenido del fichero o directorio.*
+2. ***Escritura:** *Permite modificar el contenido del fichero o directorio.**
 
-3. ***Ejecución:** Permite ejecutar el fichero o acceder al directorio.*
+3. ***Ejecución:** *Permite ejecutar el fichero o acceder al directorio.**
 
-4. ***Orden:** El primero es lectura, el segundo escritura el ultimo. `---------` significa que el ficheros o directorio no tiene ningún permiso establecido para el propietario, el grupo y otros usuarios.*
+4. ***Orden:** *El primero es lectura, el segundo escritura el ultimo. `---------` significa que el ficheros o directorio no tiene ningún permiso establecido para el propietario, el grupo y otros usuarios.**
 
 > para ver los permisos de un fichero o directorio, utilizamos el comando `ls -l` o `--format=long`.
 
@@ -433,7 +456,7 @@ sudo apt-get install -y curl
 
       - *Otra manera de hacerlo*
 
-   1. **Output:** `-rw-rw-r-- 1 daniel daniel    0 feb  1 16:04 fichero.py`
+   1. **Output:** *`-rw-rw-r-- 1 daniel daniel    0 feb  1 16:04 fichero.py`*
 
       1. `-rw-rw-r--`: *Estos son los permisos del ficheros. Se dividen en cuatro partes:*
 
@@ -762,6 +785,261 @@ chmod a=r fichero.py
 
 ---
 
+# ***Permisos en Directorios en Linux***
+
+- **`r` (lectura):** *Permite listar el contenido del directorio.*
+- **`w` (escritura):** *Permite crear, modificar o eliminar ficheros dentro del directorio.*
+- **`x` (ejecución):** *Permite acceder al contenido del directorio (entrar con `cd` o acceder a ficheros).*
+
+---
+
+## ***Preparación del entorno***
+
+*Creamos un directorio de prueba y ajustamos permisos para demostrar cada caso.*
+
+```bash
+mkdir directory
+cd directory
+touch file1.txt file2.txt
+cd ..
+```
+
+---
+
+### ***Caso 1: Sin permiso de lectura (`r`)***
+
+#### ***Comando para quitar el permiso de lectura***
+
+```bash
+chmod -r directory
+```
+
+```bash
+chmod u-r directory
+```
+
+```bash
+chmod u=wx directory
+```
+
+#### ***Qué sucede al listar el directorio***
+
+```bash
+ls -l directory
+```
+
+- **Resultado:** *Aparece un error como:*
+
+  ```bash
+  lsd: directory/: Permission denied (os error 13).
+  ```
+
+  - *Sin permiso de lectura, no se puede listar el contenido del directorio, aunque se tengan permisos de ejecución (`x`).*
+
+---
+
+### ***Caso 2: Sin permiso de escritura (`w`)***
+
+#### ***Comando para quitar el permiso de escritura***
+
+```bash
+chmod -w directory
+```
+
+```bash
+chmod u-w directory
+```
+
+```bash
+chmod u=rx directory
+```
+
+#### ***Qué sucede al intentar crear o modificar un fichero***
+
+```bash
+echo "Daniel" > directory/name.txt
+```
+
+- **Resultado:** *Aparece un error como:*
+
+  ```bash
+  bash: directory/name.txt: Permission denied
+  ```
+
+  - *Sin permiso de escritura, no puedes crear, modificar ni eliminar ficheros dentro del directorio. Sin embargo, puedes listar los ficheros si tienes permiso de lectura (`r`).*
+
+---
+
+### ***Caso 3: Sin permiso de ejecución (`x`)***
+
+#### ***Comando para quitar el permiso de ejecución***
+
+```bash
+chmod -x directory
+```
+
+```bash
+chmod u-x directory
+```
+
+```bash
+chmod u=rw directory
+```
+
+#### ***Efectos de la falta de permiso de ejecución***
+
+- **Listar contenido (`ls`):**
+
+  ```bash
+  ls -l directory
+  ```
+
+  - **Resultado:** *Si tienes permiso de lectura (`r`), puedes listar los ficheros, pero no puedes entrar al directorio.*
+    Ejemplo de error al intentar acceder:
+
+    ```bash
+    ls: cannot access 'directory/file1.txt': Permission denied
+    ```
+
+- **Acceder al directorio (`cd`):**
+
+  ```bash
+  cd directory
+  ```
+
+  - **Resultado:** *Error:*
+
+    ```bash
+    bash: cd: directory: Permission denied
+    ```
+
+- **Crear o modificar ficheros (`w`):** **
+  - *Sin permiso de ejecución, los permisos de escritura no son funcionales. Aunque tengas permiso de escritura (`w`), no puedes modificar el contenido del directorio porque no puedes "entrar" a él.*
+
+---
+
+### ***Relación entre permisos***
+
+- *Sin **lectura (`r`)**, no puedes listar el contenido del directorio.*
+- *Sin **escritura (`w`)**, no puedes modificar ni crear ficheros.*
+- *Sin **ejecución (`x`)**, no puedes acceder al directorio o interactuar con sus ficheros, incluso si tienes otros permisos.*
+
+---
+
+### ***Restaurar permisos***
+
+**Para restaurar todos los permisos:**
+
+```bash
+chmod +rwx directory
+```
+
+```bash
+chmod u=rwx directory
+```
+
+---
+
+### ***Qué sucede si un directorio no tiene todos los permisos y se intenta borrar***
+
+- *En Linux, para borrar un directorio necesitas tener ciertos permisos.*
+
+---
+
+### ***Permisos necesarios para borrar un directorio***
+
+1. **Permiso de escritura (`w`)** en el **directorio padre**:  
+   - *Necesitas permiso de escritura en el directorio que **contiene** el directorio que deseas eliminar.*
+   - *Esto permite que el sistema modifique el contenido del directorio padre (elimina la referencia al directorio que se está borrando).*
+
+2. **Permiso de ejecución (`x`)** en el **directorio a borrar**:  
+   - *Necesitas este permiso para poder acceder al contenido del directorio y procesar su eliminación.*
+
+3. **Permiso de escritura y ejecución (`wx`)** dentro del directorio mismo (si no está vacío):  
+   - *Si el directorio contiene archivos o subdirectorios, se necesitan estos permisos para eliminarlos primero.*
+
+---
+
+### ***Caso: Directorio sin todos los permisos***
+
+#### ***Comando para eliminar un directorio***
+
+```bash
+rm -r directory
+```
+
+#### ***Situaciones***
+
+1. **Sin permisos de escritura en el directorio padre:**
+   - **Aparece un error como:**
+
+     ```bash
+     rm: cannot remove 'directory': Permission denied
+     ```
+
+   - *Sin permiso de escritura en el directorio **padre**, no se puede modificar el contenido del directorio contenedor, lo cual incluye eliminar el directorio objetivo.*
+
+2. **Sin permisos de ejecución en el directorio a borrar:**
+   - *Aparece un error como:*
+
+     ```bash
+     rm: cannot access 'directory': Permission denied
+     ```
+
+   - *Sin permiso de ejecución en el directorio a borrar, el sistema no puede acceder al contenido del directorio para procesar su eliminación.*
+
+3. **Sin permisos de escritura dentro del directorio (si no está vacío):**
+   - *Aparece un error como:*
+
+     ```bash
+     rm: cannot remove 'directory/file1.txt': Permission denied
+     ```
+
+   - *Sin permiso de escritura dentro del directorio, los archivos o subdirectorios no pueden ser eliminados.*
+
+---
+
+### ***Demostración práctica***
+
+#### ***1. Quitar permisos de ejecución del directorio***
+
+```bash
+chmod -x directory
+rm -r directory
+```
+
+- **Resultado:** *Error. No se puede acceder al directorio para procesar su eliminación.*
+
+#### ***2. Quitar permisos de escritura del directorio padre***
+
+```bash
+chmod -w .
+rm -r directory
+```
+
+- **Resultado:** *Error. No se puede modificar el directorio padre para eliminar la referencia a `directory`.*
+
+---
+
+### ***Solución para borrar un directorio sin permisos***
+
+- *Si eres el propietario o tienes privilegios de superusuario, puedes usar `chmod` para restaurar los permisos o eliminarlo forzosamente con `sudo`:*
+
+```bash
+sudo chmod +rwx directory
+sudo rm -r directory
+```
+
+---
+
+### ***Resumen***
+
+- *Para borrar un directorio, necesitas permisos **de escritura en el directorio padre** y **de escritura y ejecución dentro del directorio a borrar**.*
+- *Sin estos permisos, no es posible eliminar el directorio, ni siquiera con el flag `-r` de `rm`.*
+- *Usar `sudo` puede ser una solución, pero siempre con precaución.*
+
+---
+
 # ***Enlaces duros y simbolicos***
 
 > *Un **enlace duro** es esencialmente un nombre adicional para un ficheros existente en los sistemas de ficheros de Unix y Linux. Todos los enlaces duros a un ficheros realmente se refieren al mismo ficheros, y es posible tener varios enlaces duros a un solo ficheros.* ***Un enlace simbólico** (también conocido como symlink o soft link) es un tipo especial de ficheros que sirve como referencia a otro ficheros o directorio.*
@@ -796,7 +1074,7 @@ ln -s ficheros.py enlace_simbolico.py
 ln --symbolic fichero.py enlace_simbolico.py
 ```
 
-**output:** `lrwxrwxrwx 1 daniel daniel 20 feb  2 13:03 enlace_simbolico.py -> ./directorio/fichero.py`
+**output:** *`lrwxrwxrwx 1 daniel daniel 20 feb  2 13:03 enlace_simbolico.py -> ./directorio/fichero.py`*
 
 *`l` significa que es un enlace simbólico.*
 
@@ -840,13 +1118,13 @@ ln --symbolic fichero.py enlace_simbolico.py
 
 **Enlaces duros:**
 
-1. **Backup de ficheros:** *Los enlaces duros pueden ser útiles para hacer copias de seguridad de ficheros. Si creas un enlace duro a un ficheros y luego modificas el ficheros, el enlace duro reflejará los cambios, ya que ambos apuntan a los mismos datos.*
+1. **Backup de ficheros:** **Los enlaces duros pueden ser útiles para hacer copias de seguridad de ficheros. Si creas un enlace duro a un ficheros y luego modificas el ficheros, el enlace duro reflejará los cambios, ya que ambos apuntan a los mismos datos.**
 
 **Enlaces simbólicos:**
 
-1. **Versionado de software:** *Los enlaces simbólicos son comúnmente utilizados para cambiar fácilmente entre diferentes versiones de un programa. Por ejemplo, podrías tener `programa-1.0` y `programa-1.1` en tu sistema, con un enlace simbólico llamado `programa` que apunta a la versión que deseas usar. Cuando quieras cambiar de versión, simplemente cambias a qué versión apunta el enlace simbólico.*
+1. **Versionado de software:** **Los enlaces simbólicos son comúnmente utilizados para cambiar fácilmente entre diferentes versiones de un programa. Por ejemplo, podrías tener `programa-1.0` y `programa-1.1` en tu sistema, con un enlace simbólico llamado `programa` que apunta a la versión que deseas usar. Cuando quieras cambiar de versión, simplemente cambias a qué versión apunta el enlace simbólico.**
 
-2. **Crear accesos rápidos:** *Los enlaces simbólicos pueden actuar como accesos rápidos a ficheros o directorios que se utilizan con frecuencia. Por ejemplo, podrías tener un enlace simbólico a un directorio de logs o a un ficheros de configuración en tu directorio de inicio para un acceso rápido.*
+2. **Crear accesos rápidos:** **Los enlaces simbólicos pueden actuar como accesos rápidos a ficheros o directorios que se utilizan con frecuencia. Por ejemplo, podrías tener un enlace simbólico a un directorio de logs o a un ficheros de configuración en tu directorio de inicio para un acceso rápido.**
 
 > *Recuerda que los enlaces duros no pueden referirse a directorios ni pueden cruzar sistemas de ficheros, mientras que los enlaces simbólicos pueden hacer ambas cosas.*
 
@@ -858,31 +1136,31 @@ ln --symbolic fichero.py enlace_simbolico.py
 
 - *cURL soporta una amplia variedad de protocolos, incluyendo HTTP, HTTPS, FTP, FTPS, SFTP, SCP, LDAP, LDAPS, DICT, TELNET, FILE, IMAP, POP3, SMTP y otros.*
 
-1. **Hacer una solicitud HTTP GET:** *Este es el uso más básico de cURL. Simplemente especifica la URL a la que quieres hacer la solicitud.*
+1. **Hacer una solicitud HTTP GET:** **Este es el uso más básico de cURL. Simplemente especifica la URL a la que quieres hacer la solicitud.**
 
    ```bash
    curl https://www.example.com
    ```
 
-2. **Hacer una solicitud HTTP POST:** *Puedes usar la opción `-d` (o `--data`) para enviar datos como parte de una solicitud POST.El `-X` en cURL se utiliza para especificar un método de solicitud personalizado cuando se comunica con un servidor HTTP. Por ejemplo, puedes usar `-X POST` para hacer una solicitud POST o `-X DELETE` para hacer una solicitud DELETE.*
+2. **Hacer una solicitud HTTP POST:** **Puedes usar la opción `-d` (o `--data`) para enviar datos como parte de una solicitud POST.El `-X` en cURL se utiliza para especificar un método de solicitud personalizado cuando se comunica con un servidor HTTP. Por ejemplo, puedes usar `-X POST` para hacer una solicitud POST o `-X DELETE` para hacer una solicitud DELETE.**
 
    ```bash
    curl -d "param1=value1&param2=value2" -X POST https://www.example.com
    ```
 
-3. **Enviar un ficheros como parte de una solicitud POST:** *Puedes usar la opción `-F` (o `--form`) para enviar un ficheros como parte de una solicitud POST.*
+3. **Enviar un ficheros como parte de una solicitud POST:** **Puedes usar la opción `-F` (o `--form`) para enviar un ficheros como parte de una solicitud POST.**
 
    ```bash
    curl -F "file=@/path/to/file" https://www.example.com
    ```
 
-4. **Guardar la salida a un ficheros:** *Puedes usar la opción `-o` (o `--output`) para guardar la salida de cURL a un ficheros.*
+4. **Guardar la salida a un ficheros:** **Puedes usar la opción `-o` (o `--output`) para guardar la salida de cURL a un ficheros.**
 
    ```bash
    curl -o output.html https://www.example.com
    ```
 
-5. **Enviar encabezados personalizados:** *Puedes usar la opción `-H` (o `--header`) para enviar encabezados personalizados.*
+5. **Enviar encabezados personalizados:** **Puedes usar la opción `-H` (o `--header`) para enviar encabezados personalizados.**
 
    ```bash
    curl -H "Content-Type: application/json" https://www.example.com

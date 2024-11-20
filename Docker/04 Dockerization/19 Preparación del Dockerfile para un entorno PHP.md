@@ -1886,7 +1886,7 @@ CACERT;
    - *Cuando se especifica `laravel/laravel`, Composer buscará este paquete en el repositorio de paquetes (generalmente Packagist) y descargará la versión más reciente compatible.*
 
 4. **`./`:**
-   - *`./` indica el directorio en el que se creará el proyecto. En este caso, `./` se refiere al directorio actual. Esto significa que el proyecto de Laravel se instalará en la carpeta donde estás ejecutando el comando.*
+   - *`./` indica el directorio en el que se creará el proyecto. En este caso, `./` se refiere al directorio actual. Esto significa que el proyecto de Laravel se instalará en la directorio donde estás ejecutando el comando.*
 
 ---
 
@@ -1911,7 +1911,7 @@ CACERT;
 
 ### ***Ejemplo Práctico***
 
-**Imagina que quieres iniciar un nuevo proyecto Laravel en tu carpeta de trabajo actual. Simplemente te ubicas en esa carpeta y ejecutas:**
+**Imagina que quieres iniciar un nuevo proyecto Laravel en tu directorio de trabajo actual. Simplemente te ubicas en esa directorio y ejecutas:**
 
 ```bash
 composer create-project laravel/laravel ./

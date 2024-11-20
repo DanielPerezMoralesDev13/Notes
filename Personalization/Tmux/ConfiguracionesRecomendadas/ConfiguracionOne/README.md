@@ -527,7 +527,7 @@ set -g @catppuccin_directory_text "#( echo \#{pane_current_path} | sed \"s|$HOME
 set -g @catppuccin_directory_text "#{b:pane_current_path}"
 ```
 
-- **Descripción:** *Esta configuración muestra la ruta relativa del directorio actual, es decir, la ruta desde el directorio raíz del proyecto o desde la carpeta de trabajo actual.*
+- **Descripción:** *Esta configuración muestra la ruta relativa del directorio actual, es decir, la ruta desde el directorio raíz del proyecto o desde la directorio de trabajo actual.*
 - **Sintaxis:**
   - **`#{b:pane_current_path}`:** *Aquí `#{b:...}` es un formato especial en `tmux` que convierte una ruta absoluta en una relativa.*
     - **`b:`:** *Esto indica que se debe calcular la ruta relativa.*
@@ -538,7 +538,7 @@ set -g @catppuccin_directory_text "#{b:pane_current_path}"
 
 - **`#{pane_current_path}`:** *Muestra la ruta completa (absoluta).*
 - **`#( echo \#{pane_current_path} | sed \"s|$HOME|~|\" )`:** *Muestra la ruta completa, pero reemplaza el directorio de inicio con `~`.*
-- **`#{b:pane_current_path}`:** *Muestra la ruta relativa desde la raíz del proyecto o la carpeta base.*
+- **`#{b:pane_current_path}`:** *Muestra la ruta relativa desde la raíz del proyecto o la directorio base.*
 
 ### ***4. Recarga de Configuración***
 

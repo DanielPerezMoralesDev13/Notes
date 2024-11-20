@@ -28,16 +28,16 @@ import modulo
 # Modulo propio
 from modulo import imprimir_valor, sumar_valores
 
-# Modulo propio dentro de un paquete o carpeta o directorio
+# Modulo propio dentro de un paquete o directorio o directorio
 from imports.module import modulo_propio 
 
-# importamos sin usar el from para importar un modulo especifico de un paquete o carpeta o directorio. 
+# importamos sin usar el from para importar un modulo especifico de un paquete o directorio o directorio. 
 import imports.module.modulo_propio
 
 # Usamos el as para renombrar el modulo porque si no lo renombramos tendremos que usar el nombre completo del modulo para usarlo y eso no es muy practico
 import imports.module.modulo_propio as modulo_propio
 
-# Importamos una funcion especifica de un modulo propio dentro de un paquete o carpeta o directorio
+# Importamos una funcion especifica de un modulo propio dentro de un paquete o directorio o directorio
 from imports.module.modulo_propio import id_valor
 from imports.module.modulo_propio import id_valor as id_valor_modulo_propio
 
@@ -63,7 +63,7 @@ print(math.pow(2, 8), end = "\n", file = stdout)
 print(PI_VALUE, end = "\n", file = stdout)
 
 edad: int = 18
-# manera de importar un modulo propio dentro de un paquete o carpeta o directorio.
+# manera de importar un modulo propio dentro de un paquete o directorio o directorio.
 
 print(id_valor(valor=edad), end = "\n", file = stdout)
 print(id_valor_modulo_propio(valor=edad), end = "\n", file = stdout)
@@ -74,4 +74,4 @@ print(tipo_dato_modulo_funciones(dato=edad), end = "\n", file = stdout)
 
 
 
-# Cuando importamos un modulo propio y ejecutamos el fichero que lo  esta importando se crea un carpeta __pycache__ la cual contiene un fichero .pyc el cual es un fichero compilado del modulo que importamos
+# Cuando importamos un modulo propio y ejecutamos el fichero que lo  esta importando se crea un directorio __pycache__ la cual contiene un fichero .pyc el cual es un fichero compilado del modulo que importamos

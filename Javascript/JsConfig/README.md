@@ -43,6 +43,6 @@
 
 **Esta sección se utiliza para especificar ficheros o directorios que el compilador debe ignorar. En tu configuración, se excluyen:**
 
-- **"node_modules":** *Esto excluye la carpeta `node_modules`, que contiene todas las dependencias instaladas del proyecto. Generalmente, no se quiere que el compilador analice o incluya estos ficheros, ya que son bibliotecas de terceros.*
+- **"node_modules":** *Esto excluye la directorio `node_modules`, que contiene todas las dependencias instaladas del proyecto. Generalmente, no se quiere que el compilador analice o incluya estos ficheros, ya que son bibliotecas de terceros.*
 
-- **"`/node_modules/*`":** *Esta es una forma adicional de asegurarse de que todas las carpetas `node_modules` en cualquier subdirectorio también se excluyan del análisis. Aunque incluir solo `node_modules` ya es suficiente, esta línea es más explícita.*
+- **"`/node_modules/*`":** *Esta es una forma adicional de asegurarse de que todas las directorios `node_modules` en cualquier subdirectorio también se excluyan del análisis. Aunque incluir solo `node_modules` ya es suficiente, esta línea es más explícita.*

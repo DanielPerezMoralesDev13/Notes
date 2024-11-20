@@ -16,7 +16,7 @@ unzip Reto_Dockerization_Ruby.zip -d "./06 App Ruby On Rails"
 
 ---
 
-### ***Estructura de Carpetas***
+### ***Estructura de Directorios***
 
 - **Al descomprimir, encontrarás la estructura de directorios del proyecto Ruby on Rails. Es importante mencionar que la estructura de directorios y ficheros de Rails es similar a la de Laravel, ya que este último se inspiró en Rails para su diseño.**
 

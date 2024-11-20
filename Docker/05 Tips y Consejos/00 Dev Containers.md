@@ -12,7 +12,7 @@
 
 - **Nombre:** *Dev Containers*
 - **ID:** *ms-vscode-remote.remote-containers*
-- **Descripción:** *Abre cualquier carpeta o repositorio dentro de un contenedor Docker y aprovecha todas las características de Visual Studio Code.*
+- **Descripción:** *Abre cualquier directorio o repositorio dentro de un contenedor Docker y aprovecha todas las características de Visual Studio Code.*
 - **Versión:** *`0.384.0`*
 - **Editor:** *Microsoft*
 - **Vínculo de VS Marketplace:** *[Dev Containers en VS Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers")*
@@ -30,7 +30,7 @@
 }
 ```
 
-1. **Selecciona la carpeta** *donde se encuentra tu proyecto o repositorio.*
+1. **Selecciona la directorio** *donde se encuentra tu proyecto o repositorio.*
 2. **Configura el fichero `.devcontainer`** *dentro del directorio del contenedor.*
 3. **Selecciona una imagen Docker.** *En este caso, utilizamos una imagen basada en Python.*
 4. **Elige la versión** *de Python que prefieras, por ejemplo, `3.10-bullseye`.*

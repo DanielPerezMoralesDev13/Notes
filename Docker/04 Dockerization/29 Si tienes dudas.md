@@ -117,13 +117,13 @@ CMD ./hello
 # GitHub: https://github.com/DanielPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
-# Excluimos la carpeta target que contiene los ficheros de construcción.
+# Excluimos la directorio target que contiene los ficheros de construcción.
 target/
 
 # Excluimos el Dockerfile y ficheros relacionados.
 Dockerfile*
 
-# Excluimos la carpeta .git y ficheros de configuración de git.
+# Excluimos la directorio .git y ficheros de configuración de git.
 .git*
 
 # Excluimos ficheros comprimidos para evitar incluirlos en la imagen.

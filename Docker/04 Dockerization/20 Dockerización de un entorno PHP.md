@@ -999,7 +999,7 @@ docker build -t d4nitrix13/laravel:preconfig ./
 
 **La opción `--no-scripts` en el comando `composer install` impide que se ejecuten scripts definidos en el `composer.json`, lo que puede ser útil en algunos entornos de construcción.**
 
-**Para construir la imagen, asegurémonos de estar en la misma carpeta que el Dockerfile y el fichero `.dockerignore`. Ejecuta:**
+**Para construir la imagen, asegurémonos de estar en la misma directorio que el Dockerfile y el fichero `.dockerignore`. Ejecuta:**
 
 ```bash
 docker build -t d4nitrix13/laravel:preconfig ./

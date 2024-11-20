@@ -32,13 +32,13 @@ sudo apt-get install love
 
 ### Paso 4: Ejecutar una Aplicación Love2D
 
-*Una vez instalado 'Love2D', puedes ejecutar una aplicación 'Love2D' (generalmente una carpeta que contiene el código del juego) con el siguiente comando:*
+*Una vez instalado 'Love2D', puedes ejecutar una aplicación 'Love2D' (generalmente una directorio que contiene el código del juego) con el siguiente comando:*
 
 ```bash
 love ./
 ```
 
-*Este comando ejecutará la aplicación Love2D en la carpeta actual.*
+*Este comando ejecutará la aplicación Love2D en la directorio actual.*
 
 ---
 

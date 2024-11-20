@@ -6,7 +6,7 @@
 
 - *Este fichero contiene las configuraciones de entorno para ignorar ficheros y directorios específicos en varios sistemas y herramientas de desarrollo. Se incluyen configuraciones para:*
 
-- **.gitignore:** *Ficheros y carpetas que no deben ser rastreados por Git.*
+- **.gitignore:** *Ficheros y directorios que no deben ser rastreados por Git.*
 - **.dockerignore:** *Ficheros que no deben ser incluidos en las imágenes Docker.*
 - **.npmignore:** *Ficheros que deben ser ignorados cuando se publica un paquete en npm.*
 - **.prettierignore:** *Ficheros que deben ser ignorados por Prettier al formatear código.*

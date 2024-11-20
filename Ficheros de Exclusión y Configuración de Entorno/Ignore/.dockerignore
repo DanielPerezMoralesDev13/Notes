@@ -28,7 +28,7 @@ mypy.ini
 **/__pycache__/
 *.pyc
 
-# Otros ficheros y carpetas específicos
+# Otros ficheros y directorios específicos
 Docs
 Makefile
 .env.example

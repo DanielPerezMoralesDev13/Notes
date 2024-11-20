@@ -50,7 +50,7 @@ a = Analysis([scriptPath],
 - **`[scriptPath]`:** *Una lista que contiene la ruta al Fichero principal del script. Aquí, se pasa `scriptPath` definido anteriormente.*
 - **`pathex=["./src"]`:** *Lista de directorios que se añadirán a la ruta de búsqueda de PyInstaller. Aquí, se incluye el directorio `src`.*
 - **`binaries=[]`:** *Lista de Ficheros binarios adicionales que se deben incluir en el ejecutable.*
-- **`datas`:** *Lista de tuplas que especifican Ficheros de datos adicionales y sus ubicaciones en el ejecutable. Por ejemplo, `("./src/TemasClaros", "TemasClaros")` significa que el directorio `./src/TemasClaros` se incluirá en el ejecutable en una carpeta llamada `TemasClaros`.*
+- **`datas`:** *Lista de tuplas que especifican Ficheros de datos adicionales y sus ubicaciones en el ejecutable. Por ejemplo, `("./src/TemasClaros", "TemasClaros")` significa que el directorio `./src/TemasClaros` se incluirá en el ejecutable en una directorio llamada `TemasClaros`.*
 - **`hiddenimports=[]`:** *Lista de módulos que no se detectan automáticamente pero que deben incluirse en el ejecutable.*
 - **`hookspath=[]`:** *Lista de directorios que contienen ganchos personalizados.*
 - **`hooksconfig={}`:** *Configuración de los ganchos.*
@@ -111,7 +111,7 @@ exe = EXE(pyz,
 
 ---
 
-### ***Para usar PyInstaller desde la línea de comandos y lograr lo mismo que el Fichero de configuración mencionado, puedes ejecutar el siguiente comando en el directorio donde se encuentra la carpeta `src`***
+### ***Para usar PyInstaller desde la línea de comandos y lograr lo mismo que el Fichero de configuración mencionado, puedes ejecutar el siguiente comando en el directorio donde se encuentra la directorio `src`***
 
 ```bash
 pyinstaller --onefile \
@@ -137,12 +137,12 @@ pyinstaller --onefile \
 - **`--noconsole`:** *No abre una ventana de consola al ejecutar el ejecutable (para aplicaciones GUI). Cambiar a `--console` si necesitas la consola.*
 - **`--name pycrypy`:** *Define el nombre del Fichero ejecutable resultante.*
 - **`--paths ./src`:** *Añade `./src` a la ruta de búsqueda de PyInstaller.*
-- **`--add-data "./src/TemasClaros:TemasClaros"`:** *Incluye la carpeta `./src/TemasClaros` en el ejecutable y la mapea a `TemasClaros`.*
-- **`--add-data "./src/TemasOscuros:TemasOscuros"`:** *Incluye la carpeta `./src/TemasOscuros` en el ejecutable y la mapea a `TemasOscuros`.*
-- **`--add-data "./src/TemasRecomendados:TemasRecomendados"`:** *Incluye la carpeta `./src/TemasRecomendados` en el ejecutable y la mapea a `TemasRecomendados`.*
-- **`--add-data "./src/cli:cli"`:** *Incluye la carpeta `./src/cli` en el ejecutable y la mapea a `cli`.*
-- **`--add-data "./src/config:config"`:** *Incluye la carpeta `./src/config` en el ejecutable y la mapea a `config`.*
-- **`--add-data "./src/lib:lib"`:** *Incluye la carpeta `./src/lib` en el ejecutable y la mapea a `lib`.*
+- **`--add-data "./src/TemasClaros:TemasClaros"`:** *Incluye la directorio `./src/TemasClaros` en el ejecutable y la mapea a `TemasClaros`.*
+- **`--add-data "./src/TemasOscuros:TemasOscuros"`:** *Incluye la directorio `./src/TemasOscuros` en el ejecutable y la mapea a `TemasOscuros`.*
+- **`--add-data "./src/TemasRecomendados:TemasRecomendados"`:** *Incluye la directorio `./src/TemasRecomendados` en el ejecutable y la mapea a `TemasRecomendados`.*
+- **`--add-data "./src/cli:cli"`:** *Incluye la directorio `./src/cli` en el ejecutable y la mapea a `cli`.*
+- **`--add-data "./src/config:config"`:** *Incluye la directorio `./src/config` en el ejecutable y la mapea a `config`.*
+- **`--add-data "./src/lib:lib"`:** *Incluye la directorio `./src/lib` en el ejecutable y la mapea a `lib`.*
 - **`./src/cli/main.py`:** *Especifica el Fichero principal del script.*
 
-*Este comando debería crear un único Fichero ejecutable que incluya todos los Ficheros de datos y recursos necesarios. Asegúrate de ejecutar este comando desde el directorio que contiene la carpeta `./src`.*
+*Este comando debería crear un único Fichero ejecutable que incluya todos los Ficheros de datos y recursos necesarios. Asegúrate de ejecutar este comando desde el directorio que contiene la directorio `./src`.*

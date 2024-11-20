@@ -8,12 +8,12 @@
 
 ## ***📋 Contenido***
 
-- **Configuración del shell:** *Archivos para Zsh, Bash y Fish, incluyendo prompts y plugins.*
+- **Configuración del shell:** *Ficheros para Zsh, Bash y Fish, incluyendo prompts y plugins.*
 - **Gestión de ventanas:** *Configuraciones para Tmux, Zellij y gestores de ventanas como i3, bspwm o Hyprland.*
-- **Temas e íconos:** *Archivos GTK, Kvantum y sets de íconos.*
+- **Temas e íconos:** *Ficheros GTK, Kvantum y sets de íconos.*
 - **Terminales:** *Configuraciones para Alacritty, Kitty, y otras terminales populares.*
 - **Herramientas CLI personalizadas:** *Scripts y funciones útiles.*
-- **Automatización:** *Archivos de instalación para configurar todo con un solo comando.*
+- **Automatización:** *Ficheros de instalación para configurar todo con un solo comando.*
 
 ## 🤝 Contribuciones  
 
@@ -25,8 +25,8 @@
 
 ## ***📄 Licencia***
 
-***Este proyecto está bajo la licencia MIT. Consulta el archivo `MIT` para más detalles.***
+***Este proyecto está bajo la licencia MIT. Consulta el fichero `MIT` para más detalles.***
 
 ## ***💬 Contacto***
 
-**Para dudas o sugerencias, contáctame en [danielperezdev@proton.me](danielperezdev@proton.me "danielperezdev@proton.me") o abre un [issue](https://github.com/tu_usuario/linux-personalization/issues).**
+**Para dudas o sugerencias, contáctame en [danielperezdev@proton.me](danielperezdev@proton.me "danielperezdev@proton.me") o abre un [issue](https://github.com/DanielPerezMoralesDev13/Notes/issues).**

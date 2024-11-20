@@ -20,7 +20,7 @@ pip install pyinstaller
 pyinstaller nombre_del_script.py
 ```
 
-**Esto generará varios ficheros y carpetas en el directorio, incluyendo:**
+**Esto generará varios ficheros y directorios en el directorio, incluyendo:**
 
 - **`dist/`:** *Contiene el ejecutable generado.*
 - **`build/`:** *Contiene ficheros temporales usados durante la construcción.*
@@ -30,7 +30,7 @@ pyinstaller nombre_del_script.py
 
 **Aquí hay algunas opciones útiles que puedes usar con `pyinstaller`:**
 
-- **`--onefile`:** *Genera un solo fichero ejecutable en lugar de una carpeta con múltiples ficheros.*
+- **`--onefile`:** *Genera un solo fichero ejecutable en lugar de una directorio con múltiples ficheros.*
 
     ```bash
     pyinstaller --onefile nombre_del_script.py
@@ -131,4 +131,4 @@ pyinstaller mi_script.spec
 - **[Documentación Oficial de PyInstaller](https://pyinstaller.org/ "https://pyinstaller.org/"):** *Información detallada sobre cómo usar y configurar `PyInstaller`.*
 - **[Ejemplos y Tutoriales](https://pyinstaller.org/en/stable/usage.html "https://pyinstaller.org/en/stable/usage.html"):** *Ejemplos prácticos de uso de `PyInstaller`.*
 
-*En resumen, `PyInstaller` es una herramienta poderosa para crear ejecutables a partir de scripts Python, simplificando la distribución de aplicaciones y asegurando que todos los requisitos estén empaquetados en un solo fichero o en una carpeta organizada.*
+*En resumen, `PyInstaller` es una herramienta poderosa para crear ejecutables a partir de scripts Python, simplificando la distribución de aplicaciones y asegurando que todos los requisitos estén empaquetados en un solo fichero o en una directorio organizada.*

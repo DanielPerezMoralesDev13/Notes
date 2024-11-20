@@ -321,7 +321,7 @@
 
 - **Mejora de Resolución de Pantalla:** *Ajusta automáticamente la resolución de pantalla de la máquina virtual.*
 - **Integración del Ratón:** *Permite una transición más fluida entre el sistema anfitrión y el sistema invitado.*
-- **Compartición de Carpetas:** *Facilita la transferencia de ficheros entre ambos sistemas.*
+- **Compartición de Directorios:** *Facilita la transferencia de ficheros entre ambos sistemas.*
 
 **Instalación de Guest Additions:**
 
