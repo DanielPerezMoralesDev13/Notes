@@ -1,6 +1,6 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
 # ***Aprendiendo a usar Distribuciones Linux basadas en Debian***
 
 > *Este repositorio contiene recursos, guías y ejemplos relacionados con el aprendizaje de cómo utilizar distribuciones de Linux basadas en Debian. Si eres nuevo en el mundo de Linux o estás buscando aprender más sobre cómo utilizar distribuciones como Ubuntu, Linux Mint, o Debian mismo, este repositorio puede servirte como punto de partida.*

@@ -1,6 +1,6 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
 # ***Musical Resources Repository***
 
 > *Welcome to the Musical Resources Repository! Here you will find a collection of tablatures, songs, audio files, and musical scores to aid you in your musical practice and creativity.*

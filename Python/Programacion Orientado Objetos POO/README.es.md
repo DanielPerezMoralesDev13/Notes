@@ -2,7 +2,7 @@
 
 <!-- GitHub: https://github.com/DanielPerezMoralesDev13 -->
 
-<!-- Correo electrónico: danielperezdev@proton.me  -->
+<!-- Correo electrónico: danielperezdev@proton.me -->
 
 # ***Guía de Programación Orientada a Objetos (POO)***
 
