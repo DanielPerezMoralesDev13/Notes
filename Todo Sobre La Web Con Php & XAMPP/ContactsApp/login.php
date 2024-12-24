@@ -32,7 +32,7 @@
 
           unset($user["password"]);
 
-         $_SESSION["user"] = $user;
+          $_SESSION["user"] = $user;
           header("Location: ./home.php"); 
         }
       }
